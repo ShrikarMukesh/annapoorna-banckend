@@ -1,0 +1,18 @@
+docker exec kafka kafka-console-producer.sh --bootstrap-server localhost:9092 --topic inventory-topic --property "parse.key=false" --property "key.separator=" << EOF
+{
+  "id": "item1",
+  "name": "Product A",
+  "description": "Description for Product A",
+  "quantity": 10,
+  "price": 25.99,
+  "inStock": true,
+  "category": "Electronics",
+  "imageUrl": "http://example.com/product-a.jpg",
+  "vendorId": "vendor1",
+  "lastUpdatedTimestamp": 1644372000000
+}
+EOF
+
+docker exec kafka kafka-topics.sh --list --bootstrap-server localhost:9092
+
+docker exec kafka  kafka-topics.sh --list --bootstrap-server localhost:9092

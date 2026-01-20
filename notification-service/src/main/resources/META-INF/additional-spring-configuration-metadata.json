@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "order.kafka.topic",
+    "type": "java.lang.String",
+    "description": "A description for 'order.kafka.topic'"
+  },
+  {
+    "name": "spring.kafka.consumer.json.trusted.packages",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.kafka.consumer.json.trusted.packages'"
+  },
+  {
+    "name": "spring.kafka.consumer.error-handling-deserializer.delegate.class",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.kafka.consumer.error-handling-deserializer.delegate.class'"
+  }
+]}

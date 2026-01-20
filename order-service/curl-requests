@@ -1,0 +1,89 @@
+curl --location --request POST 'http://localhost:9091/orders' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "customerId": "customer1",
+    "items": [
+        {
+            "productId": "product1",
+            "productName": "Product Name",
+            "productPrice": 12.99,
+            "quantity": 1 
+        },
+        {
+            "productId": "product2",
+            "productName": "Another Product Name",
+            "productPrice": 10.99,
+            "quantity": 2 
+        }
+    ],
+    "totalCost": 34.97,
+    "orderStatus": "PLACED",
+    "payment": {
+        "id": "payment1",
+        "method": "credit card",
+        "transactionId": "transaction1",
+        "amount": 34.97,
+        "status": "PAID",
+        "orderId": "order1"
+    },
+    "deliveryDetailsId": "delivery1"
+}
+'
+-----------------------------------------
+curl --location --request POST 'http://localhost:9091/orders' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "customerId": "customer2",
+    "items": [
+        {
+            "productId": "product3",
+            "productName": "Product Three",
+            "productPrice": 25.00,
+            "quantity": 2
+        }
+    ],
+    "totalCost": 50.00,
+    "orderStatus": "PLACED",
+    "payment": {
+        "id": "payment2",
+        "method": "debit card",
+        "transactionId": "transaction2",
+        "amount": 50.00,
+        "status": "PAID",
+        "orderId": "order2"
+    },
+    "deliveryDetailsId": "delivery2"
+}
+'
+-----------------------------------------------------------------------
+curl --location --request POST 'http://localhost:9091/orders' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "customerId": "customer3",
+    "items": [
+        {
+            "productId": "product4",
+            "productName": "Product Four",
+            "productPrice": 15.99,
+            "quantity": 1
+        },
+        {
+            "productId": "product5",
+            "productName": "Product Five",
+            "productPrice": 20.00,
+            "quantity": 3
+        }
+    ],
+    "totalCost": 75.99,
+    "orderStatus": "PLACED",
+    "payment": {
+        "id": "payment3",
+        "method": "paypal",
+        "transactionId": "transaction3",
+        "amount": 75.99,
+        "status": "PAID",
+        "orderId": "order3"
+    },
+    "deliveryDetailsId": "delivery3"
+}
+'

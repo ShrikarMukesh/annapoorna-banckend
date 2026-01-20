@@ -1,0 +1,4339 @@
+[
+  {
+    "restaurantId": "66ec6ecfa1a72086fc1ec248",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/mocil3npmwpcdcfaxql1",
+    "name": "Leon's - Burgers & Wings",
+    "description": "A famous burger joint",
+    "cuisines": [
+      "American",
+      "Snacks",
+      "Turkish"
+    ],
+    "address": {
+      "street": "123 Main St",
+      "city": "Jeevanbhimanagar",
+      "state": "Karnataka",
+      "zipCode": "560075",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919876543210",
+      "email": "contact@leons.com",
+      "website": "http://leons.com"
+    },
+    "menu": [
+      {
+        "name": "Chicken Burger",
+        "description": "Grilled chicken burger with cheese",
+        "price": 200.0
+      },
+      {
+        "name": "Fries",
+        "description": "Crispy golden fries",
+        "price": 100.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "John Doe",
+        "rating": 5,
+        "review": "Amazing food!",
+        "createdAt": "2024-09-17T22:39:34.252"
+      },
+      {
+        "customerName": "Jane Smith",
+        "rating": 4,
+        "review": "Great taste, but service was a bit slow.",
+        "createdAt": "2024-09-17T22:39:34.252"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-17T22:39:34.251",
+    "updatedAt": "2024-09-17T22:39:34.374"
+  },
+  {
+    "restaurantId": "66ec6ecfa1a72086fc1ec249",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/2b4f62d606d1b2bfba9ba9e5386fabb7",
+    "name": "Spice Garden",
+    "description": "An authentic Indian restaurant serving a wide variety of spicy dishes.",
+    "cuisines": [
+      "Indian",
+      "South Indian",
+      "North Indian"
+    ],
+    "address": {
+      "street": "45 Residency Road",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "560001",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919812345678",
+      "email": "info@spicegarden.com",
+      "website": "http://spicegarden.com"
+    },
+    "menu": [
+      {
+        "name": "Masala Dosa",
+        "description": "Crispy dosa stuffed with spicy potato filling",
+        "price": 120.0
+      },
+      {
+        "name": "Paneer Butter Masala",
+        "description": "Soft paneer cubes cooked in a rich, creamy tomato gravy",
+        "price": 220.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "Raj Kumar",
+        "rating": 5,
+        "review": "Authentic flavors and great ambiance.",
+        "createdAt": "2024-09-17T22:42:47.721"
+      },
+      {
+        "customerName": "Priya Mehra",
+        "rating": 4,
+        "review": "Loved the food but the service could be faster.",
+        "createdAt": "2024-09-17T22:42:47.721"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-17T22:42:47.721",
+    "updatedAt": "2024-09-17T22:42:47.722"
+  },
+  {
+    "restaurantId": "66ec6ecfa1a72086fc1ec24a",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/mocil3npmwpcdcfaxql1",
+    "name": "La Pino'z Pizza",
+    "description": "Famous for its giant slices and unique pizza toppings.",
+    "cuisines": [
+      "Italian",
+      "Pizza"
+    ],
+    "address": {
+      "street": "22 Commercial Street",
+      "city": "Indiranagar",
+      "state": "Karnataka",
+      "zipCode": "560038",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+918888888888",
+      "email": "support@lapinozpizza.com",
+      "website": "http://lapinozpizza.com"
+    },
+    "menu": [
+      {
+        "name": "Pepperoni Pizza",
+        "description": "Classic pizza topped with spicy pepperoni slices",
+        "price": 350.0
+      },
+      {
+        "name": "Veggie Overload",
+        "description": "Loaded with fresh vegetables and mozzarella cheese",
+        "price": 300.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "Amit Shah",
+        "rating": 4,
+        "review": "Great pizza, though a bit on the expensive side.",
+        "createdAt": "2024-09-17T22:42:50.354"
+      },
+      {
+        "customerName": "Sneha Kapoor",
+        "rating": 5,
+        "review": "Best pizza in the city! Highly recommend.",
+        "createdAt": "2024-09-17T22:42:50.354"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-17T22:42:50.354",
+    "updatedAt": "2024-09-17T22:42:50.355"
+  },
+  {
+    "restaurantId": "66ec6ecfa1a72086fc1ec24b",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/d3najev2rpzakxfvp318",
+    "name": "La Pino'z Pizza",
+    "description": "Famous for its giant slices and unique pizza toppings.",
+    "cuisines": [
+      "Italian",
+      "Pizza"
+    ],
+    "address": {
+      "street": "22 Commercial Street",
+      "city": "Indiranagar",
+      "state": "Karnataka",
+      "zipCode": "560038",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+918888888888",
+      "email": "support@lapinozpizza.com",
+      "website": "http://lapinozpizza.com"
+    },
+    "menu": [
+      {
+        "name": "Pepperoni Pizza",
+        "description": "Classic pizza topped with spicy pepperoni slices",
+        "price": 350.0
+      },
+      {
+        "name": "Veggie Overload",
+        "description": "Loaded with fresh vegetables and mozzarella cheese",
+        "price": 300.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "Amit Shah",
+        "rating": 4,
+        "review": "Great pizza, though a bit on the expensive side.",
+        "createdAt": "2024-09-19T23:32:34.799"
+      },
+      {
+        "customerName": "Sneha Kapoor",
+        "rating": 5,
+        "review": "Best pizza in the city! Highly recommend.",
+        "createdAt": "2024-09-19T23:32:34.8"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T23:32:34.799",
+    "updatedAt": "2024-09-19T23:32:35.018"
+  },
+  {
+    "restaurantId": "66ec6ecfa1a72086fc1ec24c",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/d0450ce1a6ba19ea60cd724471ed54a8",
+    "name": "La Pino'z Pizza",
+    "description": "Famous for its giant slices and unique pizza toppings.",
+    "cuisines": [
+      "Italian",
+      "Pizza"
+    ],
+    "address": {
+      "street": "22 Commercial Street",
+      "city": "Indiranagar",
+      "state": "Karnataka",
+      "zipCode": "560038",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+918888888888",
+      "email": "support@lapinozpizza.com",
+      "website": "http://lapinozpizza.com"
+    },
+    "menu": [
+      {
+        "name": "Pepperoni Pizza",
+        "description": "Classic pizza topped with spicy pepperoni slices",
+        "price": 350.0
+      },
+      {
+        "name": "Veggie Overload",
+        "description": "Loaded with fresh vegetables and mozzarella cheese",
+        "price": 300.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "Amit Shah",
+        "rating": 4,
+        "review": "Great pizza, though a bit on the expensive side.",
+        "createdAt": "2024-09-19T23:33:10.379"
+      },
+      {
+        "customerName": "Sneha Kapoor",
+        "rating": 5,
+        "review": "Best pizza in the city! Highly recommend.",
+        "createdAt": "2024-09-19T23:33:10.379"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T23:33:10.378",
+    "updatedAt": "2024-09-19T23:33:10.666"
+  },
+  {
+    "restaurantId": "66ec6ecfa1a72086fc1ec24d",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/2b4f62d606d1b2bfba9ba9e5386fabb7",
+    "name": "Cafe Delight",
+    "description": "A cozy cafe offering a wide range of coffees, pastries, and quick bites.",
+    "cuisines": [
+      "Cafe",
+      "Continental",
+      "Desserts"
+    ],
+    "address": {
+      "street": "88 MG Road",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "560001",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919999876543",
+      "email": "info@cafedelight.com",
+      "website": "http://cafedelight.com"
+    },
+    "menu": [
+      {
+        "name": "Espresso",
+        "description": "Strong and rich espresso shot",
+        "price": 150.0
+      },
+      {
+        "name": "Chocolate Muffin",
+        "description": "Moist and rich chocolate muffin",
+        "price": 80.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "Rohit Verma",
+        "rating": 4,
+        "review": "Great coffee but seating is limited.",
+        "createdAt": "2024-09-19T23:59:51.128"
+      },
+      {
+        "customerName": "Nisha Gupta",
+        "rating": 5,
+        "review": "Best muffins in town!",
+        "createdAt": "2024-09-19T23:59:51.128"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T23:59:51.128",
+    "updatedAt": "2024-09-19T23:59:51.13"
+  },
+  {
+    "restaurantId": "66ec6ecfa1a72086fc1ec24e",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/2b4f62d606d1b2bfba9ba9e5386fabb7",
+    "name": "The Curry House",
+    "description": "Authentic Indian and Mughlai cuisine with bold flavors and rich spices.",
+    "cuisines": [
+      "Indian",
+      "Mughlai",
+      "Biryani"
+    ],
+    "address": {
+      "street": "14 Brigade Road",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "560025",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+918123456789",
+      "email": "support@thecurryhouse.com",
+      "website": "http://thecurryhouse.com"
+    },
+    "menu": [
+      {
+        "name": "Chicken Biryani",
+        "description": "Fragrant basmati rice cooked with tender chicken and Indian spices",
+        "price": 280.0
+      },
+      {
+        "name": "Butter Chicken",
+        "description": "Creamy tomato-based gravy with succulent chicken pieces",
+        "price": 350.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "Anjali Mehra",
+        "rating": 5,
+        "review": "Best biryani I've ever had!",
+        "createdAt": "2024-09-20T00:00:00.506"
+      },
+      {
+        "customerName": "Vikram Patel",
+        "rating": 4,
+        "review": "Loved the food but the portion size was small.",
+        "createdAt": "2024-09-20T00:00:00.506"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-20T00:00:00.506",
+    "updatedAt": "2024-09-20T00:00:00.508"
+  },
+  {
+    "restaurantId": "66ec6ecfa1a72086fc1ec24f",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/2b4f62d606d1b2bfba9ba9e5386fabb7",
+    "name": "Sushi World",
+    "description": "A premium sushi restaurant offering the freshest seafood and authentic Japanese dishes.",
+    "cuisines": [
+      "Japanese",
+      "Sushi",
+      "Asian"
+    ],
+    "address": {
+      "street": "56 Koramangala 5th Block",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "560034",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919876543210",
+      "email": "info@sushiworld.com",
+      "website": "http://sushiworld.com"
+    },
+    "menu": [
+      {
+        "name": "Spicy Tuna Roll",
+        "description": "Tuna roll with spicy mayo and fresh vegetables",
+        "price": 450.0
+      },
+      {
+        "name": "Salmon Nigiri",
+        "description": "Fresh salmon atop seasoned sushi rice",
+        "price": 350.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "Rhea Kapoor",
+        "rating": 5,
+        "review": "The sushi is fresh and delicious!",
+        "createdAt": "2024-09-20T00:00:06.028"
+      },
+      {
+        "customerName": "Kunal Roy",
+        "rating": 4,
+        "review": "Great sushi but a bit pricey.",
+        "createdAt": "2024-09-20T00:00:06.028"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-20T00:00:06.027",
+    "updatedAt": "2024-09-20T00:00:06.03"
+  },
+  {
+    "restaurantId": "66ec6ecfa1a72086fc1ec250",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/2b4f62d606d1b2bfba9ba9e5386fabb7",
+    "name": "Sushi World",
+    "description": "A premium sushi restaurant offering the freshest seafood and authentic Japanese dishes.",
+    "cuisines": [
+      "Japanese",
+      "Sushi",
+      "Asian"
+    ],
+    "address": {
+      "street": "56 Koramangala 5th Block",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "560034",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919876543210",
+      "email": "info@sushiworld.com",
+      "website": "http://sushiworld.com"
+    },
+    "menu": [
+      {
+        "name": "Spicy Tuna Roll",
+        "description": "Tuna roll with spicy mayo and fresh vegetables",
+        "price": 450.0
+      },
+      {
+        "name": "Salmon Nigiri",
+        "description": "Fresh salmon atop seasoned sushi rice",
+        "price": 350.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "Rhea Kapoor",
+        "rating": 5,
+        "review": "The sushi is fresh and delicious!",
+        "createdAt": "2024-09-20T00:01:27.811066447"
+      },
+      {
+        "customerName": "Kunal Roy",
+        "rating": 4,
+        "review": "Great sushi but a bit pricey.",
+        "createdAt": "2024-09-20T00:01:27.811094531"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-20T00:01:27.810909781",
+    "updatedAt": "2024-09-20T00:01:27.812229944"
+  },
+  {
+    "restaurantId": "66ec73a693f29e1a33e81c02",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/d3najev2rpzakxfvp318",
+    "name": "Sushi World",
+    "description": "A premium sushi restaurant offering the freshest seafood and authentic Japanese dishes.",
+    "cuisines": [
+      "Japanese",
+      "Sushi",
+      "Asian"
+    ],
+    "address": {
+      "street": "56 Koramangala 5th Block",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "560034",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919876543210",
+      "email": "info@sushiworld.com",
+      "website": "http://sushiworld.com"
+    },
+    "menu": [
+      {
+        "name": "Spicy Tuna Roll",
+        "description": "Tuna roll with spicy mayo and fresh vegetables",
+        "price": 450.0
+      },
+      {
+        "name": "Salmon Nigiri",
+        "description": "Fresh salmon atop seasoned sushi rice",
+        "price": 350.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "Rhea Kapoor",
+        "rating": 5,
+        "review": "The sushi is fresh and delicious!",
+        "createdAt": "2024-09-20T00:25:34.18"
+      },
+      {
+        "customerName": "Kunal Roy",
+        "rating": 4,
+        "review": "Great sushi but a bit pricey.",
+        "createdAt": "2024-09-20T00:25:34.18"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-20T00:25:34.179",
+    "updatedAt": "2024-09-20T00:25:34.346"
+  },
+  {
+    "restaurantId": "66ec7524a1a72086fc1ec253",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/sample_image.jpg",
+    "name": "Restaurant 1",
+    "description": "A top-rated restaurant offering the finest cuisines. Restaurant 1 specializes in a wide variety of dishes.",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2",
+      "Cuisine3"
+    ],
+    "address": {
+      "street": "1 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "56001",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919876543210",
+      "email": "contact@restaurant1.com",
+      "website": "http://restaurant1.com"
+    },
+    "menu": [
+      {
+        "name": "Grilled Chicken Sandwich",
+        "description": "Grilled chicken with lettuce, tomato, and mayo.",
+        "price": 250.0
+      },
+      {
+        "name": "Cheeseburger",
+        "description": "Beef patty with melted cheese and special sauce.",
+        "price": 300.0
+      },
+      {
+        "name": "Margarita Pizza",
+        "description": "Classic pizza with tomatoes, mozzarella, and basil.",
+        "price": 450.0
+      },
+      {
+        "name": "Caesar Salad",
+        "description": "Romaine lettuce with Caesar dressing and croutons.",
+        "price": 200.0
+      },
+      {
+        "name": "Penne Alfredo",
+        "description": "Pasta in creamy Alfredo sauce.",
+        "price": 350.0
+      },
+      {
+        "name": "Tandoori Chicken",
+        "description": "Chicken marinated in yogurt and spices, cooked in a tandoor.",
+        "price": 500.0
+      },
+      {
+        "name": "Fish Tacos",
+        "description": "Crispy fish with slaw and avocado in soft tortillas.",
+        "price": 400.0
+      },
+      {
+        "name": "Chocolate Lava Cake",
+        "description": "Warm chocolate cake with a molten center.",
+        "price": 180.0
+      },
+      {
+        "name": "Vegetarian Biryani",
+        "description": "Fragrant basmati rice with vegetables and spices.",
+        "price": 300.0
+      },
+      {
+        "name": "Sushi Platter",
+        "description": "Assorted sushi with fresh fish and rice.",
+        "price": 600.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "Alice",
+        "rating": 5,
+        "review": "The best restaurant experience I've ever had.",
+        "createdAt": "2024-09-20T12:19:09.438919068"
+      },
+      {
+        "customerName": "Bob",
+        "rating": 4,
+        "review": "Good food, but the service was slow.",
+        "createdAt": "2024-09-20T12:19:09.438955269"
+      },
+      {
+        "customerName": "Charlie",
+        "rating": 3,
+        "review": "Average experience, nothing special.",
+        "createdAt": "2024-09-20T12:19:09.43898034"
+      },
+      {
+        "customerName": "David",
+        "rating": 4,
+        "review": "Great food but a bit pricey.",
+        "createdAt": "2024-09-20T12:19:09.439008984"
+      },
+      {
+        "customerName": "Eve",
+        "rating": 5,
+        "review": "Amazing food and fantastic ambiance.",
+        "createdAt": "2024-09-20T12:19:09.439032067"
+      },
+      {
+        "customerName": "Frank",
+        "rating": 4,
+        "review": "I loved the food, but it was too crowded.",
+        "createdAt": "2024-09-20T12:19:09.439055127"
+      },
+      {
+        "customerName": "Grace",
+        "rating": 5,
+        "review": "The best dishes in town! Highly recommended.",
+        "createdAt": "2024-09-20T12:19:09.439078448"
+      },
+      {
+        "customerName": "Hank",
+        "rating": 4,
+        "review": "Great food, but parking was an issue.",
+        "createdAt": "2024-09-20T12:19:09.439101485"
+      },
+      {
+        "customerName": "Ivy",
+        "rating": 3,
+        "review": "Good food, but the portions were too small.",
+        "createdAt": "2024-09-20T12:19:09.439124308"
+      },
+      {
+        "customerName": "Jack",
+        "rating": 5,
+        "review": "Excellent service and the food was superb.",
+        "createdAt": "2024-09-20T12:19:09.439149388"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T19:00:47.703131",
+    "updatedAt": "2024-09-19T19:00:47.703139"
+  },
+  {
+    "restaurantId": "66ec7524a1a72086fc1ec254",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/sample_image.jpg",
+    "name": "Restaurant 2",
+    "description": "A top-rated restaurant offering the finest cuisines. Restaurant 2 specializes in a wide variety of dishes.",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2",
+      "Cuisine3"
+    ],
+    "address": {
+      "street": "2 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "56002",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919876543220",
+      "email": "contact@restaurant2.com",
+      "website": "http://restaurant2.com"
+    },
+    "menu": [
+      {
+        "name": "Grilled Chicken Sandwich",
+        "description": "Grilled chicken with lettuce, tomato, and mayo.",
+        "price": 250.0
+      },
+      {
+        "name": "Cheeseburger",
+        "description": "Beef patty with melted cheese and special sauce.",
+        "price": 300.0
+      },
+      {
+        "name": "Margarita Pizza",
+        "description": "Classic pizza with tomatoes, mozzarella, and basil.",
+        "price": 450.0
+      },
+      {
+        "name": "Caesar Salad",
+        "description": "Romaine lettuce with Caesar dressing and croutons.",
+        "price": 200.0
+      },
+      {
+        "name": "Penne Alfredo",
+        "description": "Pasta in creamy Alfredo sauce.",
+        "price": 350.0
+      },
+      {
+        "name": "Tandoori Chicken",
+        "description": "Chicken marinated in yogurt and spices, cooked in a tandoor.",
+        "price": 500.0
+      },
+      {
+        "name": "Fish Tacos",
+        "description": "Crispy fish with slaw and avocado in soft tortillas.",
+        "price": 400.0
+      },
+      {
+        "name": "Chocolate Lava Cake",
+        "description": "Warm chocolate cake with a molten center.",
+        "price": 180.0
+      },
+      {
+        "name": "Vegetarian Biryani",
+        "description": "Fragrant basmati rice with vegetables and spices.",
+        "price": 300.0
+      },
+      {
+        "name": "Sushi Platter",
+        "description": "Assorted sushi with fresh fish and rice.",
+        "price": 600.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "Alice",
+        "rating": 5,
+        "review": "The best restaurant experience I've ever had.",
+        "createdAt": "2024-09-20T12:19:09.439992075"
+      },
+      {
+        "customerName": "Bob",
+        "rating": 4,
+        "review": "Good food, but the service was slow.",
+        "createdAt": "2024-09-20T12:19:09.440041289"
+      },
+      {
+        "customerName": "Charlie",
+        "rating": 3,
+        "review": "Average experience, nothing special.",
+        "createdAt": "2024-09-20T12:19:09.440080776"
+      },
+      {
+        "customerName": "David",
+        "rating": 4,
+        "review": "Great food but a bit pricey.",
+        "createdAt": "2024-09-20T12:19:09.440111804"
+      },
+      {
+        "customerName": "Eve",
+        "rating": 5,
+        "review": "Amazing food and fantastic ambiance.",
+        "createdAt": "2024-09-20T12:19:09.440135855"
+      },
+      {
+        "customerName": "Frank",
+        "rating": 4,
+        "review": "I loved the food, but it was too crowded.",
+        "createdAt": "2024-09-20T12:19:09.440158741"
+      },
+      {
+        "customerName": "Grace",
+        "rating": 5,
+        "review": "The best dishes in town! Highly recommended.",
+        "createdAt": "2024-09-20T12:19:09.440181785"
+      },
+      {
+        "customerName": "Hank",
+        "rating": 4,
+        "review": "Great food, but parking was an issue.",
+        "createdAt": "2024-09-20T12:19:09.440204684"
+      },
+      {
+        "customerName": "Ivy",
+        "rating": 3,
+        "review": "Good food, but the portions were too small.",
+        "createdAt": "2024-09-20T12:19:09.44022835"
+      },
+      {
+        "customerName": "Jack",
+        "rating": 5,
+        "review": "Excellent service and the food was superb.",
+        "createdAt": "2024-09-20T12:19:09.440274955"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T19:00:47.703147",
+    "updatedAt": "2024-09-19T19:00:47.703149"
+  },
+  {
+    "restaurantId": "66ec7524a1a72086fc1ec255",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/sample_image.jpg",
+    "name": "Restaurant 3",
+    "description": "A top-rated restaurant offering the finest cuisines. Restaurant 3 specializes in a wide variety of dishes.",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2",
+      "Cuisine3"
+    ],
+    "address": {
+      "street": "3 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "56003",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919876543230",
+      "email": "contact@restaurant3.com",
+      "website": "http://restaurant3.com"
+    },
+    "menu": [
+      {
+        "name": "Grilled Chicken Sandwich",
+        "description": "Grilled chicken with lettuce, tomato, and mayo.",
+        "price": 250.0
+      },
+      {
+        "name": "Cheeseburger",
+        "description": "Beef patty with melted cheese and special sauce.",
+        "price": 300.0
+      },
+      {
+        "name": "Margarita Pizza",
+        "description": "Classic pizza with tomatoes, mozzarella, and basil.",
+        "price": 450.0
+      },
+      {
+        "name": "Caesar Salad",
+        "description": "Romaine lettuce with Caesar dressing and croutons.",
+        "price": 200.0
+      },
+      {
+        "name": "Penne Alfredo",
+        "description": "Pasta in creamy Alfredo sauce.",
+        "price": 350.0
+      },
+      {
+        "name": "Tandoori Chicken",
+        "description": "Chicken marinated in yogurt and spices, cooked in a tandoor.",
+        "price": 500.0
+      },
+      {
+        "name": "Fish Tacos",
+        "description": "Crispy fish with slaw and avocado in soft tortillas.",
+        "price": 400.0
+      },
+      {
+        "name": "Chocolate Lava Cake",
+        "description": "Warm chocolate cake with a molten center.",
+        "price": 180.0
+      },
+      {
+        "name": "Vegetarian Biryani",
+        "description": "Fragrant basmati rice with vegetables and spices.",
+        "price": 300.0
+      },
+      {
+        "name": "Sushi Platter",
+        "description": "Assorted sushi with fresh fish and rice.",
+        "price": 600.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "Alice",
+        "rating": 5,
+        "review": "The best restaurant experience I've ever had.",
+        "createdAt": "2024-09-20T12:19:09.441072242"
+      },
+      {
+        "customerName": "Bob",
+        "rating": 4,
+        "review": "Good food, but the service was slow.",
+        "createdAt": "2024-09-20T12:19:09.441105617"
+      },
+      {
+        "customerName": "Charlie",
+        "rating": 3,
+        "review": "Average experience, nothing special.",
+        "createdAt": "2024-09-20T12:19:09.441132527"
+      },
+      {
+        "customerName": "David",
+        "rating": 4,
+        "review": "Great food but a bit pricey.",
+        "createdAt": "2024-09-20T12:19:09.441156517"
+      },
+      {
+        "customerName": "Eve",
+        "rating": 5,
+        "review": "Amazing food and fantastic ambiance.",
+        "createdAt": "2024-09-20T12:19:09.441180408"
+      },
+      {
+        "customerName": "Frank",
+        "rating": 4,
+        "review": "I loved the food, but it was too crowded.",
+        "createdAt": "2024-09-20T12:19:09.441202892"
+      },
+      {
+        "customerName": "Grace",
+        "rating": 5,
+        "review": "The best dishes in town! Highly recommended.",
+        "createdAt": "2024-09-20T12:19:09.441225877"
+      },
+      {
+        "customerName": "Hank",
+        "rating": 4,
+        "review": "Great food, but parking was an issue.",
+        "createdAt": "2024-09-20T12:19:09.441262526"
+      },
+      {
+        "customerName": "Ivy",
+        "rating": 3,
+        "review": "Good food, but the portions were too small.",
+        "createdAt": "2024-09-20T12:19:09.441286533"
+      },
+      {
+        "customerName": "Jack",
+        "rating": 5,
+        "review": "Excellent service and the food was superb.",
+        "createdAt": "2024-09-20T12:19:09.441310317"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T19:00:47.70317",
+    "updatedAt": "2024-09-19T19:00:47.703172"
+  },
+  {
+    "restaurantId": "66ec7524a1a72086fc1ec256",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/sample_image.jpg",
+    "name": "Restaurant 4",
+    "description": "A top-rated restaurant offering the finest cuisines. Restaurant 4 specializes in a wide variety of dishes.",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2",
+      "Cuisine3"
+    ],
+    "address": {
+      "street": "4 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "56004",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919876543240",
+      "email": "contact@restaurant4.com",
+      "website": "http://restaurant4.com"
+    },
+    "menu": [
+      {
+        "name": "Grilled Chicken Sandwich",
+        "description": "Grilled chicken with lettuce, tomato, and mayo.",
+        "price": 250.0
+      },
+      {
+        "name": "Cheeseburger",
+        "description": "Beef patty with melted cheese and special sauce.",
+        "price": 300.0
+      },
+      {
+        "name": "Margarita Pizza",
+        "description": "Classic pizza with tomatoes, mozzarella, and basil.",
+        "price": 450.0
+      },
+      {
+        "name": "Caesar Salad",
+        "description": "Romaine lettuce with Caesar dressing and croutons.",
+        "price": 200.0
+      },
+      {
+        "name": "Penne Alfredo",
+        "description": "Pasta in creamy Alfredo sauce.",
+        "price": 350.0
+      },
+      {
+        "name": "Tandoori Chicken",
+        "description": "Chicken marinated in yogurt and spices, cooked in a tandoor.",
+        "price": 500.0
+      },
+      {
+        "name": "Fish Tacos",
+        "description": "Crispy fish with slaw and avocado in soft tortillas.",
+        "price": 400.0
+      },
+      {
+        "name": "Chocolate Lava Cake",
+        "description": "Warm chocolate cake with a molten center.",
+        "price": 180.0
+      },
+      {
+        "name": "Vegetarian Biryani",
+        "description": "Fragrant basmati rice with vegetables and spices.",
+        "price": 300.0
+      },
+      {
+        "name": "Sushi Platter",
+        "description": "Assorted sushi with fresh fish and rice.",
+        "price": 600.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "Alice",
+        "rating": 5,
+        "review": "The best restaurant experience I've ever had.",
+        "createdAt": "2024-09-20T12:19:09.442043571"
+      },
+      {
+        "customerName": "Bob",
+        "rating": 4,
+        "review": "Good food, but the service was slow.",
+        "createdAt": "2024-09-20T12:19:09.442074211"
+      },
+      {
+        "customerName": "Charlie",
+        "rating": 3,
+        "review": "Average experience, nothing special.",
+        "createdAt": "2024-09-20T12:19:09.442099342"
+      },
+      {
+        "customerName": "David",
+        "rating": 4,
+        "review": "Great food but a bit pricey.",
+        "createdAt": "2024-09-20T12:19:09.442127895"
+      },
+      {
+        "customerName": "Eve",
+        "rating": 5,
+        "review": "Amazing food and fantastic ambiance.",
+        "createdAt": "2024-09-20T12:19:09.44215361"
+      },
+      {
+        "customerName": "Frank",
+        "rating": 4,
+        "review": "I loved the food, but it was too crowded.",
+        "createdAt": "2024-09-20T12:19:09.442178931"
+      },
+      {
+        "customerName": "Grace",
+        "rating": 5,
+        "review": "The best dishes in town! Highly recommended.",
+        "createdAt": "2024-09-20T12:19:09.44220432"
+      },
+      {
+        "customerName": "Hank",
+        "rating": 4,
+        "review": "Great food, but parking was an issue.",
+        "createdAt": "2024-09-20T12:19:09.442229891"
+      },
+      {
+        "customerName": "Ivy",
+        "rating": 3,
+        "review": "Good food, but the portions were too small.",
+        "createdAt": "2024-09-20T12:19:09.442257101"
+      },
+      {
+        "customerName": "Jack",
+        "rating": 5,
+        "review": "Excellent service and the food was superb.",
+        "createdAt": "2024-09-20T12:19:09.44228224"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T19:00:47.703181",
+    "updatedAt": "2024-09-19T19:00:47.703182"
+  },
+  {
+    "restaurantId": "66ec7524a1a72086fc1ec257",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/sample_image.jpg",
+    "name": "Restaurant 5",
+    "description": "A top-rated restaurant offering the finest cuisines. Restaurant 5 specializes in a wide variety of dishes.",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2",
+      "Cuisine3"
+    ],
+    "address": {
+      "street": "5 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "56005",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919876543250",
+      "email": "contact@restaurant5.com",
+      "website": "http://restaurant5.com"
+    },
+    "menu": [
+      {
+        "name": "Grilled Chicken Sandwich",
+        "description": "Grilled chicken with lettuce, tomato, and mayo.",
+        "price": 250.0
+      },
+      {
+        "name": "Cheeseburger",
+        "description": "Beef patty with melted cheese and special sauce.",
+        "price": 300.0
+      },
+      {
+        "name": "Margarita Pizza",
+        "description": "Classic pizza with tomatoes, mozzarella, and basil.",
+        "price": 450.0
+      },
+      {
+        "name": "Caesar Salad",
+        "description": "Romaine lettuce with Caesar dressing and croutons.",
+        "price": 200.0
+      },
+      {
+        "name": "Penne Alfredo",
+        "description": "Pasta in creamy Alfredo sauce.",
+        "price": 350.0
+      },
+      {
+        "name": "Tandoori Chicken",
+        "description": "Chicken marinated in yogurt and spices, cooked in a tandoor.",
+        "price": 500.0
+      },
+      {
+        "name": "Fish Tacos",
+        "description": "Crispy fish with slaw and avocado in soft tortillas.",
+        "price": 400.0
+      },
+      {
+        "name": "Chocolate Lava Cake",
+        "description": "Warm chocolate cake with a molten center.",
+        "price": 180.0
+      },
+      {
+        "name": "Vegetarian Biryani",
+        "description": "Fragrant basmati rice with vegetables and spices.",
+        "price": 300.0
+      },
+      {
+        "name": "Sushi Platter",
+        "description": "Assorted sushi with fresh fish and rice.",
+        "price": 600.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "Alice",
+        "rating": 5,
+        "review": "The best restaurant experience I've ever had.",
+        "createdAt": "2024-09-20T12:19:09.443077116"
+      },
+      {
+        "customerName": "Bob",
+        "rating": 4,
+        "review": "Good food, but the service was slow.",
+        "createdAt": "2024-09-20T12:19:09.443118027"
+      },
+      {
+        "customerName": "Charlie",
+        "rating": 3,
+        "review": "Average experience, nothing special.",
+        "createdAt": "2024-09-20T12:19:09.44314374"
+      },
+      {
+        "customerName": "David",
+        "rating": 4,
+        "review": "Great food but a bit pricey.",
+        "createdAt": "2024-09-20T12:19:09.443167968"
+      },
+      {
+        "customerName": "Eve",
+        "rating": 5,
+        "review": "Amazing food and fantastic ambiance.",
+        "createdAt": "2024-09-20T12:19:09.443191488"
+      },
+      {
+        "customerName": "Frank",
+        "rating": 4,
+        "review": "I loved the food, but it was too crowded.",
+        "createdAt": "2024-09-20T12:19:09.443214443"
+      },
+      {
+        "customerName": "Grace",
+        "rating": 5,
+        "review": "The best dishes in town! Highly recommended.",
+        "createdAt": "2024-09-20T12:19:09.44323747"
+      },
+      {
+        "customerName": "Hank",
+        "rating": 4,
+        "review": "Great food, but parking was an issue.",
+        "createdAt": "2024-09-20T12:19:09.443259678"
+      },
+      {
+        "customerName": "Ivy",
+        "rating": 3,
+        "review": "Good food, but the portions were too small.",
+        "createdAt": "2024-09-20T12:19:09.443318194"
+      },
+      {
+        "customerName": "Jack",
+        "rating": 5,
+        "review": "Excellent service and the food was superb.",
+        "createdAt": "2024-09-20T12:19:09.443357442"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T19:00:47.703187",
+    "updatedAt": "2024-09-19T19:00:47.703188"
+  },
+  {
+    "restaurantId": "66ec7524a1a72086fc1ec258",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/sample_image.jpg",
+    "name": "Restaurant 6",
+    "description": "A top-rated restaurant offering the finest cuisines. Restaurant 6 specializes in a wide variety of dishes.",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2",
+      "Cuisine3"
+    ],
+    "address": {
+      "street": "6 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "56006",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919876543260",
+      "email": "contact@restaurant6.com",
+      "website": "http://restaurant6.com"
+    },
+    "menu": [
+      {
+        "name": "Grilled Chicken Sandwich",
+        "description": "Grilled chicken with lettuce, tomato, and mayo.",
+        "price": 250.0
+      },
+      {
+        "name": "Cheeseburger",
+        "description": "Beef patty with melted cheese and special sauce.",
+        "price": 300.0
+      },
+      {
+        "name": "Margarita Pizza",
+        "description": "Classic pizza with tomatoes, mozzarella, and basil.",
+        "price": 450.0
+      },
+      {
+        "name": "Caesar Salad",
+        "description": "Romaine lettuce with Caesar dressing and croutons.",
+        "price": 200.0
+      },
+      {
+        "name": "Penne Alfredo",
+        "description": "Pasta in creamy Alfredo sauce.",
+        "price": 350.0
+      },
+      {
+        "name": "Tandoori Chicken",
+        "description": "Chicken marinated in yogurt and spices, cooked in a tandoor.",
+        "price": 500.0
+      },
+      {
+        "name": "Fish Tacos",
+        "description": "Crispy fish with slaw and avocado in soft tortillas.",
+        "price": 400.0
+      },
+      {
+        "name": "Chocolate Lava Cake",
+        "description": "Warm chocolate cake with a molten center.",
+        "price": 180.0
+      },
+      {
+        "name": "Vegetarian Biryani",
+        "description": "Fragrant basmati rice with vegetables and spices.",
+        "price": 300.0
+      },
+      {
+        "name": "Sushi Platter",
+        "description": "Assorted sushi with fresh fish and rice.",
+        "price": 600.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "Alice",
+        "rating": 5,
+        "review": "The best restaurant experience I've ever had.",
+        "createdAt": "2024-09-20T12:19:09.444132327"
+      },
+      {
+        "customerName": "Bob",
+        "rating": 4,
+        "review": "Good food, but the service was slow.",
+        "createdAt": "2024-09-20T12:19:09.444166187"
+      },
+      {
+        "customerName": "Charlie",
+        "rating": 3,
+        "review": "Average experience, nothing special.",
+        "createdAt": "2024-09-20T12:19:09.444192052"
+      },
+      {
+        "customerName": "David",
+        "rating": 4,
+        "review": "Great food but a bit pricey.",
+        "createdAt": "2024-09-20T12:19:09.444215702"
+      },
+      {
+        "customerName": "Eve",
+        "rating": 5,
+        "review": "Amazing food and fantastic ambiance.",
+        "createdAt": "2024-09-20T12:19:09.444239387"
+      },
+      {
+        "customerName": "Frank",
+        "rating": 4,
+        "review": "I loved the food, but it was too crowded.",
+        "createdAt": "2024-09-20T12:19:09.444263042"
+      },
+      {
+        "customerName": "Grace",
+        "rating": 5,
+        "review": "The best dishes in town! Highly recommended.",
+        "createdAt": "2024-09-20T12:19:09.444286897"
+      },
+      {
+        "customerName": "Hank",
+        "rating": 4,
+        "review": "Great food, but parking was an issue.",
+        "createdAt": "2024-09-20T12:19:09.444338355"
+      },
+      {
+        "customerName": "Ivy",
+        "rating": 3,
+        "review": "Good food, but the portions were too small.",
+        "createdAt": "2024-09-20T12:19:09.444364456"
+      },
+      {
+        "customerName": "Jack",
+        "rating": 5,
+        "review": "Excellent service and the food was superb.",
+        "createdAt": "2024-09-20T12:19:09.444388962"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T19:00:47.703194",
+    "updatedAt": "2024-09-19T19:00:47.703195"
+  },
+  {
+    "restaurantId": "66ec7524a1a72086fc1ec259",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/sample_image.jpg",
+    "name": "Restaurant 7",
+    "description": "A top-rated restaurant offering the finest cuisines. Restaurant 7 specializes in a wide variety of dishes.",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2",
+      "Cuisine3"
+    ],
+    "address": {
+      "street": "7 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "56007",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919876543270",
+      "email": "contact@restaurant7.com",
+      "website": "http://restaurant7.com"
+    },
+    "menu": [
+      {
+        "name": "Grilled Chicken Sandwich",
+        "description": "Grilled chicken with lettuce, tomato, and mayo.",
+        "price": 250.0
+      },
+      {
+        "name": "Cheeseburger",
+        "description": "Beef patty with melted cheese and special sauce.",
+        "price": 300.0
+      },
+      {
+        "name": "Margarita Pizza",
+        "description": "Classic pizza with tomatoes, mozzarella, and basil.",
+        "price": 450.0
+      },
+      {
+        "name": "Caesar Salad",
+        "description": "Romaine lettuce with Caesar dressing and croutons.",
+        "price": 200.0
+      },
+      {
+        "name": "Penne Alfredo",
+        "description": "Pasta in creamy Alfredo sauce.",
+        "price": 350.0
+      },
+      {
+        "name": "Tandoori Chicken",
+        "description": "Chicken marinated in yogurt and spices, cooked in a tandoor.",
+        "price": 500.0
+      },
+      {
+        "name": "Fish Tacos",
+        "description": "Crispy fish with slaw and avocado in soft tortillas.",
+        "price": 400.0
+      },
+      {
+        "name": "Chocolate Lava Cake",
+        "description": "Warm chocolate cake with a molten center.",
+        "price": 180.0
+      },
+      {
+        "name": "Vegetarian Biryani",
+        "description": "Fragrant basmati rice with vegetables and spices.",
+        "price": 300.0
+      },
+      {
+        "name": "Sushi Platter",
+        "description": "Assorted sushi with fresh fish and rice.",
+        "price": 600.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "Alice",
+        "rating": 5,
+        "review": "The best restaurant experience I've ever had.",
+        "createdAt": "2024-09-20T12:19:09.445059666"
+      },
+      {
+        "customerName": "Bob",
+        "rating": 4,
+        "review": "Good food, but the service was slow.",
+        "createdAt": "2024-09-20T12:19:09.44509034"
+      },
+      {
+        "customerName": "Charlie",
+        "rating": 3,
+        "review": "Average experience, nothing special.",
+        "createdAt": "2024-09-20T12:19:09.44511818"
+      },
+      {
+        "customerName": "David",
+        "rating": 4,
+        "review": "Great food but a bit pricey.",
+        "createdAt": "2024-09-20T12:19:09.445145938"
+      },
+      {
+        "customerName": "Eve",
+        "rating": 5,
+        "review": "Amazing food and fantastic ambiance.",
+        "createdAt": "2024-09-20T12:19:09.445170542"
+      },
+      {
+        "customerName": "Frank",
+        "rating": 4,
+        "review": "I loved the food, but it was too crowded.",
+        "createdAt": "2024-09-20T12:19:09.445195019"
+      },
+      {
+        "customerName": "Grace",
+        "rating": 5,
+        "review": "The best dishes in town! Highly recommended.",
+        "createdAt": "2024-09-20T12:19:09.445218956"
+      },
+      {
+        "customerName": "Hank",
+        "rating": 4,
+        "review": "Great food, but parking was an issue.",
+        "createdAt": "2024-09-20T12:19:09.445244378"
+      },
+      {
+        "customerName": "Ivy",
+        "rating": 3,
+        "review": "Good food, but the portions were too small.",
+        "createdAt": "2024-09-20T12:19:09.445268553"
+      },
+      {
+        "customerName": "Jack",
+        "rating": 5,
+        "review": "Excellent service and the food was superb.",
+        "createdAt": "2024-09-20T12:19:09.445292488"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T19:00:47.7032",
+    "updatedAt": "2024-09-19T19:00:47.703201"
+  },
+  {
+    "restaurantId": "66ec7524a1a72086fc1ec25a",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/sample_image.jpg",
+    "name": "Restaurant 8",
+    "description": "A top-rated restaurant offering the finest cuisines. Restaurant 8 specializes in a wide variety of dishes.",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2",
+      "Cuisine3"
+    ],
+    "address": {
+      "street": "8 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "56008",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919876543280",
+      "email": "contact@restaurant8.com",
+      "website": "http://restaurant8.com"
+    },
+    "menu": [
+      {
+        "name": "Grilled Chicken Sandwich",
+        "description": "Grilled chicken with lettuce, tomato, and mayo.",
+        "price": 250.0
+      },
+      {
+        "name": "Cheeseburger",
+        "description": "Beef patty with melted cheese and special sauce.",
+        "price": 300.0
+      },
+      {
+        "name": "Margarita Pizza",
+        "description": "Classic pizza with tomatoes, mozzarella, and basil.",
+        "price": 450.0
+      },
+      {
+        "name": "Caesar Salad",
+        "description": "Romaine lettuce with Caesar dressing and croutons.",
+        "price": 200.0
+      },
+      {
+        "name": "Penne Alfredo",
+        "description": "Pasta in creamy Alfredo sauce.",
+        "price": 350.0
+      },
+      {
+        "name": "Tandoori Chicken",
+        "description": "Chicken marinated in yogurt and spices, cooked in a tandoor.",
+        "price": 500.0
+      },
+      {
+        "name": "Fish Tacos",
+        "description": "Crispy fish with slaw and avocado in soft tortillas.",
+        "price": 400.0
+      },
+      {
+        "name": "Chocolate Lava Cake",
+        "description": "Warm chocolate cake with a molten center.",
+        "price": 180.0
+      },
+      {
+        "name": "Vegetarian Biryani",
+        "description": "Fragrant basmati rice with vegetables and spices.",
+        "price": 300.0
+      },
+      {
+        "name": "Sushi Platter",
+        "description": "Assorted sushi with fresh fish and rice.",
+        "price": 600.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "Alice",
+        "rating": 5,
+        "review": "The best restaurant experience I've ever had.",
+        "createdAt": "2024-09-20T12:19:09.445926011"
+      },
+      {
+        "customerName": "Bob",
+        "rating": 4,
+        "review": "Good food, but the service was slow.",
+        "createdAt": "2024-09-20T12:19:09.445958127"
+      },
+      {
+        "customerName": "Charlie",
+        "rating": 3,
+        "review": "Average experience, nothing special.",
+        "createdAt": "2024-09-20T12:19:09.44599195"
+      },
+      {
+        "customerName": "David",
+        "rating": 4,
+        "review": "Great food but a bit pricey.",
+        "createdAt": "2024-09-20T12:19:09.44601902"
+      },
+      {
+        "customerName": "Eve",
+        "rating": 5,
+        "review": "Amazing food and fantastic ambiance.",
+        "createdAt": "2024-09-20T12:19:09.446043002"
+      },
+      {
+        "customerName": "Frank",
+        "rating": 4,
+        "review": "I loved the food, but it was too crowded.",
+        "createdAt": "2024-09-20T12:19:09.446067328"
+      },
+      {
+        "customerName": "Grace",
+        "rating": 5,
+        "review": "The best dishes in town! Highly recommended.",
+        "createdAt": "2024-09-20T12:19:09.446092461"
+      },
+      {
+        "customerName": "Hank",
+        "rating": 4,
+        "review": "Great food, but parking was an issue.",
+        "createdAt": "2024-09-20T12:19:09.446118326"
+      },
+      {
+        "customerName": "Ivy",
+        "rating": 3,
+        "review": "Good food, but the portions were too small.",
+        "createdAt": "2024-09-20T12:19:09.446144524"
+      },
+      {
+        "customerName": "Jack",
+        "rating": 5,
+        "review": "Excellent service and the food was superb.",
+        "createdAt": "2024-09-20T12:19:09.446169953"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T19:00:47.703305",
+    "updatedAt": "2024-09-19T19:00:47.703308"
+  },
+  {
+    "restaurantId": "66ec7524a1a72086fc1ec25b",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/sample_image.jpg",
+    "name": "Restaurant 9",
+    "description": "A top-rated restaurant offering the finest cuisines. Restaurant 9 specializes in a wide variety of dishes.",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2",
+      "Cuisine3"
+    ],
+    "address": {
+      "street": "9 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "56009",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919876543290",
+      "email": "contact@restaurant9.com",
+      "website": "http://restaurant9.com"
+    },
+    "menu": [
+      {
+        "name": "Grilled Chicken Sandwich",
+        "description": "Grilled chicken with lettuce, tomato, and mayo.",
+        "price": 250.0
+      },
+      {
+        "name": "Cheeseburger",
+        "description": "Beef patty with melted cheese and special sauce.",
+        "price": 300.0
+      },
+      {
+        "name": "Margarita Pizza",
+        "description": "Classic pizza with tomatoes, mozzarella, and basil.",
+        "price": 450.0
+      },
+      {
+        "name": "Caesar Salad",
+        "description": "Romaine lettuce with Caesar dressing and croutons.",
+        "price": 200.0
+      },
+      {
+        "name": "Penne Alfredo",
+        "description": "Pasta in creamy Alfredo sauce.",
+        "price": 350.0
+      },
+      {
+        "name": "Tandoori Chicken",
+        "description": "Chicken marinated in yogurt and spices, cooked in a tandoor.",
+        "price": 500.0
+      },
+      {
+        "name": "Fish Tacos",
+        "description": "Crispy fish with slaw and avocado in soft tortillas.",
+        "price": 400.0
+      },
+      {
+        "name": "Chocolate Lava Cake",
+        "description": "Warm chocolate cake with a molten center.",
+        "price": 180.0
+      },
+      {
+        "name": "Vegetarian Biryani",
+        "description": "Fragrant basmati rice with vegetables and spices.",
+        "price": 300.0
+      },
+      {
+        "name": "Sushi Platter",
+        "description": "Assorted sushi with fresh fish and rice.",
+        "price": 600.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "Alice",
+        "rating": 5,
+        "review": "The best restaurant experience I've ever had.",
+        "createdAt": "2024-09-20T12:19:09.446841116"
+      },
+      {
+        "customerName": "Bob",
+        "rating": 4,
+        "review": "Good food, but the service was slow.",
+        "createdAt": "2024-09-20T12:19:09.446887195"
+      },
+      {
+        "customerName": "Charlie",
+        "rating": 3,
+        "review": "Average experience, nothing special.",
+        "createdAt": "2024-09-20T12:19:09.446950909"
+      },
+      {
+        "customerName": "David",
+        "rating": 4,
+        "review": "Great food but a bit pricey.",
+        "createdAt": "2024-09-20T12:19:09.446988819"
+      },
+      {
+        "customerName": "Eve",
+        "rating": 5,
+        "review": "Amazing food and fantastic ambiance.",
+        "createdAt": "2024-09-20T12:19:09.4470252"
+      },
+      {
+        "customerName": "Frank",
+        "rating": 4,
+        "review": "I loved the food, but it was too crowded.",
+        "createdAt": "2024-09-20T12:19:09.44705415"
+      },
+      {
+        "customerName": "Grace",
+        "rating": 5,
+        "review": "The best dishes in town! Highly recommended.",
+        "createdAt": "2024-09-20T12:19:09.447080945"
+      },
+      {
+        "customerName": "Hank",
+        "rating": 4,
+        "review": "Great food, but parking was an issue.",
+        "createdAt": "2024-09-20T12:19:09.447107459"
+      },
+      {
+        "customerName": "Ivy",
+        "rating": 3,
+        "review": "Good food, but the portions were too small.",
+        "createdAt": "2024-09-20T12:19:09.447138075"
+      },
+      {
+        "customerName": "Jack",
+        "rating": 5,
+        "review": "Excellent service and the food was superb.",
+        "createdAt": "2024-09-20T12:19:09.44716873"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T19:00:47.703314",
+    "updatedAt": "2024-09-19T19:00:47.703315"
+  },
+  {
+    "restaurantId": "66ec7524a1a72086fc1ec25c",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/sample_image.jpg",
+    "name": "Restaurant 10",
+    "description": "A top-rated restaurant offering the finest cuisines. Restaurant 10 specializes in a wide variety of dishes.",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2",
+      "Cuisine3"
+    ],
+    "address": {
+      "street": "10 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "560010",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+9198765432100",
+      "email": "contact@restaurant10.com",
+      "website": "http://restaurant10.com"
+    },
+    "menu": [
+      {
+        "name": "Grilled Chicken Sandwich",
+        "description": "Grilled chicken with lettuce, tomato, and mayo.",
+        "price": 250.0
+      },
+      {
+        "name": "Cheeseburger",
+        "description": "Beef patty with melted cheese and special sauce.",
+        "price": 300.0
+      },
+      {
+        "name": "Margarita Pizza",
+        "description": "Classic pizza with tomatoes, mozzarella, and basil.",
+        "price": 450.0
+      },
+      {
+        "name": "Caesar Salad",
+        "description": "Romaine lettuce with Caesar dressing and croutons.",
+        "price": 200.0
+      },
+      {
+        "name": "Penne Alfredo",
+        "description": "Pasta in creamy Alfredo sauce.",
+        "price": 350.0
+      },
+      {
+        "name": "Tandoori Chicken",
+        "description": "Chicken marinated in yogurt and spices, cooked in a tandoor.",
+        "price": 500.0
+      },
+      {
+        "name": "Fish Tacos",
+        "description": "Crispy fish with slaw and avocado in soft tortillas.",
+        "price": 400.0
+      },
+      {
+        "name": "Chocolate Lava Cake",
+        "description": "Warm chocolate cake with a molten center.",
+        "price": 180.0
+      },
+      {
+        "name": "Vegetarian Biryani",
+        "description": "Fragrant basmati rice with vegetables and spices.",
+        "price": 300.0
+      },
+      {
+        "name": "Sushi Platter",
+        "description": "Assorted sushi with fresh fish and rice.",
+        "price": 600.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "Alice",
+        "rating": 5,
+        "review": "The best restaurant experience I've ever had.",
+        "createdAt": "2024-09-20T12:19:09.447975501"
+      },
+      {
+        "customerName": "Bob",
+        "rating": 4,
+        "review": "Good food, but the service was slow.",
+        "createdAt": "2024-09-20T12:19:09.448023072"
+      },
+      {
+        "customerName": "Charlie",
+        "rating": 3,
+        "review": "Average experience, nothing special.",
+        "createdAt": "2024-09-20T12:19:09.448070796"
+      },
+      {
+        "customerName": "David",
+        "rating": 4,
+        "review": "Great food but a bit pricey.",
+        "createdAt": "2024-09-20T12:19:09.448094465"
+      },
+      {
+        "customerName": "Eve",
+        "rating": 5,
+        "review": "Amazing food and fantastic ambiance.",
+        "createdAt": "2024-09-20T12:19:09.448116716"
+      },
+      {
+        "customerName": "Frank",
+        "rating": 4,
+        "review": "I loved the food, but it was too crowded.",
+        "createdAt": "2024-09-20T12:19:09.44813967"
+      },
+      {
+        "customerName": "Grace",
+        "rating": 5,
+        "review": "The best dishes in town! Highly recommended.",
+        "createdAt": "2024-09-20T12:19:09.448164859"
+      },
+      {
+        "customerName": "Hank",
+        "rating": 4,
+        "review": "Great food, but parking was an issue.",
+        "createdAt": "2024-09-20T12:19:09.448189953"
+      },
+      {
+        "customerName": "Ivy",
+        "rating": 3,
+        "review": "Good food, but the portions were too small.",
+        "createdAt": "2024-09-20T12:19:09.448214371"
+      },
+      {
+        "customerName": "Jack",
+        "rating": 5,
+        "review": "Excellent service and the food was superb.",
+        "createdAt": "2024-09-20T12:19:09.448247851"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T19:00:47.703322",
+    "updatedAt": "2024-09-19T19:00:47.703323"
+  },
+  {
+    "restaurantId": "66ec7524a1a72086fc1ec25d",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/sample_image.jpg",
+    "name": "Restaurant 11",
+    "description": "A top-rated restaurant offering the finest cuisines. Restaurant 11 specializes in a wide variety of dishes.",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2",
+      "Cuisine3"
+    ],
+    "address": {
+      "street": "11 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "560011",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+9198765432110",
+      "email": "contact@restaurant11.com",
+      "website": "http://restaurant11.com"
+    },
+    "menu": [
+      {
+        "name": "Grilled Chicken Sandwich",
+        "description": "Grilled chicken with lettuce, tomato, and mayo.",
+        "price": 250.0
+      },
+      {
+        "name": "Cheeseburger",
+        "description": "Beef patty with melted cheese and special sauce.",
+        "price": 300.0
+      },
+      {
+        "name": "Margarita Pizza",
+        "description": "Classic pizza with tomatoes, mozzarella, and basil.",
+        "price": 450.0
+      },
+      {
+        "name": "Caesar Salad",
+        "description": "Romaine lettuce with Caesar dressing and croutons.",
+        "price": 200.0
+      },
+      {
+        "name": "Penne Alfredo",
+        "description": "Pasta in creamy Alfredo sauce.",
+        "price": 350.0
+      },
+      {
+        "name": "Tandoori Chicken",
+        "description": "Chicken marinated in yogurt and spices, cooked in a tandoor.",
+        "price": 500.0
+      },
+      {
+        "name": "Fish Tacos",
+        "description": "Crispy fish with slaw and avocado in soft tortillas.",
+        "price": 400.0
+      },
+      {
+        "name": "Chocolate Lava Cake",
+        "description": "Warm chocolate cake with a molten center.",
+        "price": 180.0
+      },
+      {
+        "name": "Vegetarian Biryani",
+        "description": "Fragrant basmati rice with vegetables and spices.",
+        "price": 300.0
+      },
+      {
+        "name": "Sushi Platter",
+        "description": "Assorted sushi with fresh fish and rice.",
+        "price": 600.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "Alice",
+        "rating": 5,
+        "review": "The best restaurant experience I've ever had.",
+        "createdAt": "2024-09-20T12:19:09.449235459"
+      },
+      {
+        "customerName": "Bob",
+        "rating": 4,
+        "review": "Good food, but the service was slow.",
+        "createdAt": "2024-09-20T12:19:09.449284233"
+      },
+      {
+        "customerName": "Charlie",
+        "rating": 3,
+        "review": "Average experience, nothing special.",
+        "createdAt": "2024-09-20T12:19:09.449314851"
+      },
+      {
+        "customerName": "David",
+        "rating": 4,
+        "review": "Great food but a bit pricey.",
+        "createdAt": "2024-09-20T12:19:09.449355518"
+      },
+      {
+        "customerName": "Eve",
+        "rating": 5,
+        "review": "Amazing food and fantastic ambiance.",
+        "createdAt": "2024-09-20T12:19:09.449379886"
+      },
+      {
+        "customerName": "Frank",
+        "rating": 4,
+        "review": "I loved the food, but it was too crowded.",
+        "createdAt": "2024-09-20T12:19:09.449405871"
+      },
+      {
+        "customerName": "Grace",
+        "rating": 5,
+        "review": "The best dishes in town! Highly recommended.",
+        "createdAt": "2024-09-20T12:19:09.44942998"
+      },
+      {
+        "customerName": "Hank",
+        "rating": 4,
+        "review": "Great food, but parking was an issue.",
+        "createdAt": "2024-09-20T12:19:09.449455818"
+      },
+      {
+        "customerName": "Ivy",
+        "rating": 3,
+        "review": "Good food, but the portions were too small.",
+        "createdAt": "2024-09-20T12:19:09.449479406"
+      },
+      {
+        "customerName": "Jack",
+        "rating": 5,
+        "review": "Excellent service and the food was superb.",
+        "createdAt": "2024-09-20T12:19:09.449512602"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T19:00:47.703328",
+    "updatedAt": "2024-09-19T19:00:47.703329"
+  },
+  {
+    "restaurantId": "66ec7524a1a72086fc1ec25e",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/sample_image.jpg",
+    "name": "Restaurant 12",
+    "description": "A top-rated restaurant offering the finest cuisines. Restaurant 12 specializes in a wide variety of dishes.",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2",
+      "Cuisine3"
+    ],
+    "address": {
+      "street": "12 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "560012",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+9198765432120",
+      "email": "contact@restaurant12.com",
+      "website": "http://restaurant12.com"
+    },
+    "menu": [
+      {
+        "name": "Grilled Chicken Sandwich",
+        "description": "Grilled chicken with lettuce, tomato, and mayo.",
+        "price": 250.0
+      },
+      {
+        "name": "Cheeseburger",
+        "description": "Beef patty with melted cheese and special sauce.",
+        "price": 300.0
+      },
+      {
+        "name": "Margarita Pizza",
+        "description": "Classic pizza with tomatoes, mozzarella, and basil.",
+        "price": 450.0
+      },
+      {
+        "name": "Caesar Salad",
+        "description": "Romaine lettuce with Caesar dressing and croutons.",
+        "price": 200.0
+      },
+      {
+        "name": "Penne Alfredo",
+        "description": "Pasta in creamy Alfredo sauce.",
+        "price": 350.0
+      },
+      {
+        "name": "Tandoori Chicken",
+        "description": "Chicken marinated in yogurt and spices, cooked in a tandoor.",
+        "price": 500.0
+      },
+      {
+        "name": "Fish Tacos",
+        "description": "Crispy fish with slaw and avocado in soft tortillas.",
+        "price": 400.0
+      },
+      {
+        "name": "Chocolate Lava Cake",
+        "description": "Warm chocolate cake with a molten center.",
+        "price": 180.0
+      },
+      {
+        "name": "Vegetarian Biryani",
+        "description": "Fragrant basmati rice with vegetables and spices.",
+        "price": 300.0
+      },
+      {
+        "name": "Sushi Platter",
+        "description": "Assorted sushi with fresh fish and rice.",
+        "price": 600.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "Alice",
+        "rating": 5,
+        "review": "The best restaurant experience I've ever had.",
+        "createdAt": "2024-09-20T12:19:09.450251414"
+      },
+      {
+        "customerName": "Bob",
+        "rating": 4,
+        "review": "Good food, but the service was slow.",
+        "createdAt": "2024-09-20T12:19:09.450286614"
+      },
+      {
+        "customerName": "Charlie",
+        "rating": 3,
+        "review": "Average experience, nothing special.",
+        "createdAt": "2024-09-20T12:19:09.450319542"
+      },
+      {
+        "customerName": "David",
+        "rating": 4,
+        "review": "Great food but a bit pricey.",
+        "createdAt": "2024-09-20T12:19:09.450357805"
+      },
+      {
+        "customerName": "Eve",
+        "rating": 5,
+        "review": "Amazing food and fantastic ambiance.",
+        "createdAt": "2024-09-20T12:19:09.450409604"
+      },
+      {
+        "customerName": "Frank",
+        "rating": 4,
+        "review": "I loved the food, but it was too crowded.",
+        "createdAt": "2024-09-20T12:19:09.450437899"
+      },
+      {
+        "customerName": "Grace",
+        "rating": 5,
+        "review": "The best dishes in town! Highly recommended.",
+        "createdAt": "2024-09-20T12:19:09.450462843"
+      },
+      {
+        "customerName": "Hank",
+        "rating": 4,
+        "review": "Great food, but parking was an issue.",
+        "createdAt": "2024-09-20T12:19:09.450486894"
+      },
+      {
+        "customerName": "Ivy",
+        "rating": 3,
+        "review": "Good food, but the portions were too small.",
+        "createdAt": "2024-09-20T12:19:09.450511051"
+      },
+      {
+        "customerName": "Jack",
+        "rating": 5,
+        "review": "Excellent service and the food was superb.",
+        "createdAt": "2024-09-20T12:19:09.450535787"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T19:00:47.703339",
+    "updatedAt": "2024-09-19T19:00:47.703341"
+  },
+  {
+    "restaurantId": "66ec7524a1a72086fc1ec25f",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/sample_image.jpg",
+    "name": "Restaurant 13",
+    "description": "A top-rated restaurant offering the finest cuisines. Restaurant 13 specializes in a wide variety of dishes.",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2",
+      "Cuisine3"
+    ],
+    "address": {
+      "street": "13 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "560013",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+9198765432130",
+      "email": "contact@restaurant13.com",
+      "website": "http://restaurant13.com"
+    },
+    "menu": [
+      {
+        "name": "Grilled Chicken Sandwich",
+        "description": "Grilled chicken with lettuce, tomato, and mayo.",
+        "price": 250.0
+      },
+      {
+        "name": "Cheeseburger",
+        "description": "Beef patty with melted cheese and special sauce.",
+        "price": 300.0
+      },
+      {
+        "name": "Margarita Pizza",
+        "description": "Classic pizza with tomatoes, mozzarella, and basil.",
+        "price": 450.0
+      },
+      {
+        "name": "Caesar Salad",
+        "description": "Romaine lettuce with Caesar dressing and croutons.",
+        "price": 200.0
+      },
+      {
+        "name": "Penne Alfredo",
+        "description": "Pasta in creamy Alfredo sauce.",
+        "price": 350.0
+      },
+      {
+        "name": "Tandoori Chicken",
+        "description": "Chicken marinated in yogurt and spices, cooked in a tandoor.",
+        "price": 500.0
+      },
+      {
+        "name": "Fish Tacos",
+        "description": "Crispy fish with slaw and avocado in soft tortillas.",
+        "price": 400.0
+      },
+      {
+        "name": "Chocolate Lava Cake",
+        "description": "Warm chocolate cake with a molten center.",
+        "price": 180.0
+      },
+      {
+        "name": "Vegetarian Biryani",
+        "description": "Fragrant basmati rice with vegetables and spices.",
+        "price": 300.0
+      },
+      {
+        "name": "Sushi Platter",
+        "description": "Assorted sushi with fresh fish and rice.",
+        "price": 600.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "Alice",
+        "rating": 5,
+        "review": "The best restaurant experience I've ever had.",
+        "createdAt": "2024-09-20T12:19:09.45125692"
+      },
+      {
+        "customerName": "Bob",
+        "rating": 4,
+        "review": "Good food, but the service was slow.",
+        "createdAt": "2024-09-20T12:19:09.451308894"
+      },
+      {
+        "customerName": "Charlie",
+        "rating": 3,
+        "review": "Average experience, nothing special.",
+        "createdAt": "2024-09-20T12:19:09.45136313"
+      },
+      {
+        "customerName": "David",
+        "rating": 4,
+        "review": "Great food but a bit pricey.",
+        "createdAt": "2024-09-20T12:19:09.451386434"
+      },
+      {
+        "customerName": "Eve",
+        "rating": 5,
+        "review": "Amazing food and fantastic ambiance.",
+        "createdAt": "2024-09-20T12:19:09.451408604"
+      },
+      {
+        "customerName": "Frank",
+        "rating": 4,
+        "review": "I loved the food, but it was too crowded.",
+        "createdAt": "2024-09-20T12:19:09.451430152"
+      },
+      {
+        "customerName": "Grace",
+        "rating": 5,
+        "review": "The best dishes in town! Highly recommended.",
+        "createdAt": "2024-09-20T12:19:09.451451531"
+      },
+      {
+        "customerName": "Hank",
+        "rating": 4,
+        "review": "Great food, but parking was an issue.",
+        "createdAt": "2024-09-20T12:19:09.451473514"
+      },
+      {
+        "customerName": "Ivy",
+        "rating": 3,
+        "review": "Good food, but the portions were too small.",
+        "createdAt": "2024-09-20T12:19:09.451500175"
+      },
+      {
+        "customerName": "Jack",
+        "rating": 5,
+        "review": "Excellent service and the food was superb.",
+        "createdAt": "2024-09-20T12:19:09.451523384"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T19:00:47.703346",
+    "updatedAt": "2024-09-19T19:00:47.703347"
+  },
+  {
+    "restaurantId": "66ec7524a1a72086fc1ec260",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/sample_image.jpg",
+    "name": "Restaurant 14",
+    "description": "A top-rated restaurant offering the finest cuisines. Restaurant 14 specializes in a wide variety of dishes.",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2",
+      "Cuisine3"
+    ],
+    "address": {
+      "street": "14 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "560014",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+9198765432140",
+      "email": "contact@restaurant14.com",
+      "website": "http://restaurant14.com"
+    },
+    "menu": [
+      {
+        "name": "Grilled Chicken Sandwich",
+        "description": "Grilled chicken with lettuce, tomato, and mayo.",
+        "price": 250.0
+      },
+      {
+        "name": "Cheeseburger",
+        "description": "Beef patty with melted cheese and special sauce.",
+        "price": 300.0
+      },
+      {
+        "name": "Margarita Pizza",
+        "description": "Classic pizza with tomatoes, mozzarella, and basil.",
+        "price": 450.0
+      },
+      {
+        "name": "Caesar Salad",
+        "description": "Romaine lettuce with Caesar dressing and croutons.",
+        "price": 200.0
+      },
+      {
+        "name": "Penne Alfredo",
+        "description": "Pasta in creamy Alfredo sauce.",
+        "price": 350.0
+      },
+      {
+        "name": "Tandoori Chicken",
+        "description": "Chicken marinated in yogurt and spices, cooked in a tandoor.",
+        "price": 500.0
+      },
+      {
+        "name": "Fish Tacos",
+        "description": "Crispy fish with slaw and avocado in soft tortillas.",
+        "price": 400.0
+      },
+      {
+        "name": "Chocolate Lava Cake",
+        "description": "Warm chocolate cake with a molten center.",
+        "price": 180.0
+      },
+      {
+        "name": "Vegetarian Biryani",
+        "description": "Fragrant basmati rice with vegetables and spices.",
+        "price": 300.0
+      },
+      {
+        "name": "Sushi Platter",
+        "description": "Assorted sushi with fresh fish and rice.",
+        "price": 600.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "Alice",
+        "rating": 5,
+        "review": "The best restaurant experience I've ever had.",
+        "createdAt": "2024-09-20T12:19:09.452442369"
+      },
+      {
+        "customerName": "Bob",
+        "rating": 4,
+        "review": "Good food, but the service was slow.",
+        "createdAt": "2024-09-20T12:19:09.452482618"
+      },
+      {
+        "customerName": "Charlie",
+        "rating": 3,
+        "review": "Average experience, nothing special.",
+        "createdAt": "2024-09-20T12:19:09.45251015"
+      },
+      {
+        "customerName": "David",
+        "rating": 4,
+        "review": "Great food but a bit pricey.",
+        "createdAt": "2024-09-20T12:19:09.452536179"
+      },
+      {
+        "customerName": "Eve",
+        "rating": 5,
+        "review": "Amazing food and fantastic ambiance.",
+        "createdAt": "2024-09-20T12:19:09.452562194"
+      },
+      {
+        "customerName": "Frank",
+        "rating": 4,
+        "review": "I loved the food, but it was too crowded.",
+        "createdAt": "2024-09-20T12:19:09.452608747"
+      },
+      {
+        "customerName": "Grace",
+        "rating": 5,
+        "review": "The best dishes in town! Highly recommended.",
+        "createdAt": "2024-09-20T12:19:09.452636941"
+      },
+      {
+        "customerName": "Hank",
+        "rating": 4,
+        "review": "Great food, but parking was an issue.",
+        "createdAt": "2024-09-20T12:19:09.452662887"
+      },
+      {
+        "customerName": "Ivy",
+        "rating": 3,
+        "review": "Good food, but the portions were too small.",
+        "createdAt": "2024-09-20T12:19:09.452689096"
+      },
+      {
+        "customerName": "Jack",
+        "rating": 5,
+        "review": "Excellent service and the food was superb.",
+        "createdAt": "2024-09-20T12:19:09.452714978"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T19:00:47.703354",
+    "updatedAt": "2024-09-19T19:00:47.703355"
+  },
+  {
+    "restaurantId": "66ec7524a1a72086fc1ec261",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/sample_image.jpg",
+    "name": "Restaurant 15",
+    "description": "A top-rated restaurant offering the finest cuisines. Restaurant 15 specializes in a wide variety of dishes.",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2",
+      "Cuisine3"
+    ],
+    "address": {
+      "street": "15 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "560015",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+9198765432150",
+      "email": "contact@restaurant15.com",
+      "website": "http://restaurant15.com"
+    },
+    "menu": [
+      {
+        "name": "Grilled Chicken Sandwich",
+        "description": "Grilled chicken with lettuce, tomato, and mayo.",
+        "price": 250.0
+      },
+      {
+        "name": "Cheeseburger",
+        "description": "Beef patty with melted cheese and special sauce.",
+        "price": 300.0
+      },
+      {
+        "name": "Margarita Pizza",
+        "description": "Classic pizza with tomatoes, mozzarella, and basil.",
+        "price": 450.0
+      },
+      {
+        "name": "Caesar Salad",
+        "description": "Romaine lettuce with Caesar dressing and croutons.",
+        "price": 200.0
+      },
+      {
+        "name": "Penne Alfredo",
+        "description": "Pasta in creamy Alfredo sauce.",
+        "price": 350.0
+      },
+      {
+        "name": "Tandoori Chicken",
+        "description": "Chicken marinated in yogurt and spices, cooked in a tandoor.",
+        "price": 500.0
+      },
+      {
+        "name": "Fish Tacos",
+        "description": "Crispy fish with slaw and avocado in soft tortillas.",
+        "price": 400.0
+      },
+      {
+        "name": "Chocolate Lava Cake",
+        "description": "Warm chocolate cake with a molten center.",
+        "price": 180.0
+      },
+      {
+        "name": "Vegetarian Biryani",
+        "description": "Fragrant basmati rice with vegetables and spices.",
+        "price": 300.0
+      },
+      {
+        "name": "Sushi Platter",
+        "description": "Assorted sushi with fresh fish and rice.",
+        "price": 600.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "Alice",
+        "rating": 5,
+        "review": "The best restaurant experience I've ever had.",
+        "createdAt": "2024-09-20T12:19:09.453504913"
+      },
+      {
+        "customerName": "Bob",
+        "rating": 4,
+        "review": "Good food, but the service was slow.",
+        "createdAt": "2024-09-20T12:19:09.453541816"
+      },
+      {
+        "customerName": "Charlie",
+        "rating": 3,
+        "review": "Average experience, nothing special.",
+        "createdAt": "2024-09-20T12:19:09.453568397"
+      },
+      {
+        "customerName": "David",
+        "rating": 4,
+        "review": "Great food but a bit pricey.",
+        "createdAt": "2024-09-20T12:19:09.453592786"
+      },
+      {
+        "customerName": "Eve",
+        "rating": 5,
+        "review": "Amazing food and fantastic ambiance.",
+        "createdAt": "2024-09-20T12:19:09.453616561"
+      },
+      {
+        "customerName": "Frank",
+        "rating": 4,
+        "review": "I loved the food, but it was too crowded.",
+        "createdAt": "2024-09-20T12:19:09.453640447"
+      },
+      {
+        "customerName": "Grace",
+        "rating": 5,
+        "review": "The best dishes in town! Highly recommended.",
+        "createdAt": "2024-09-20T12:19:09.453679238"
+      },
+      {
+        "customerName": "Hank",
+        "rating": 4,
+        "review": "Great food, but parking was an issue.",
+        "createdAt": "2024-09-20T12:19:09.453703487"
+      },
+      {
+        "customerName": "Ivy",
+        "rating": 3,
+        "review": "Good food, but the portions were too small.",
+        "createdAt": "2024-09-20T12:19:09.45372655"
+      },
+      {
+        "customerName": "Jack",
+        "rating": 5,
+        "review": "Excellent service and the food was superb.",
+        "createdAt": "2024-09-20T12:19:09.453749263"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T19:00:47.70336",
+    "updatedAt": "2024-09-19T19:00:47.703361"
+  },
+  {
+    "restaurantId": "66ec7524a1a72086fc1ec262",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/sample_image.jpg",
+    "name": "Restaurant 16",
+    "description": "A top-rated restaurant offering the finest cuisines. Restaurant 16 specializes in a wide variety of dishes.",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2",
+      "Cuisine3"
+    ],
+    "address": {
+      "street": "16 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "560016",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+9198765432160",
+      "email": "contact@restaurant16.com",
+      "website": "http://restaurant16.com"
+    },
+    "menu": [
+      {
+        "name": "Grilled Chicken Sandwich",
+        "description": "Grilled chicken with lettuce, tomato, and mayo.",
+        "price": 250.0
+      },
+      {
+        "name": "Cheeseburger",
+        "description": "Beef patty with melted cheese and special sauce.",
+        "price": 300.0
+      },
+      {
+        "name": "Margarita Pizza",
+        "description": "Classic pizza with tomatoes, mozzarella, and basil.",
+        "price": 450.0
+      },
+      {
+        "name": "Caesar Salad",
+        "description": "Romaine lettuce with Caesar dressing and croutons.",
+        "price": 200.0
+      },
+      {
+        "name": "Penne Alfredo",
+        "description": "Pasta in creamy Alfredo sauce.",
+        "price": 350.0
+      },
+      {
+        "name": "Tandoori Chicken",
+        "description": "Chicken marinated in yogurt and spices, cooked in a tandoor.",
+        "price": 500.0
+      },
+      {
+        "name": "Fish Tacos",
+        "description": "Crispy fish with slaw and avocado in soft tortillas.",
+        "price": 400.0
+      },
+      {
+        "name": "Chocolate Lava Cake",
+        "description": "Warm chocolate cake with a molten center.",
+        "price": 180.0
+      },
+      {
+        "name": "Vegetarian Biryani",
+        "description": "Fragrant basmati rice with vegetables and spices.",
+        "price": 300.0
+      },
+      {
+        "name": "Sushi Platter",
+        "description": "Assorted sushi with fresh fish and rice.",
+        "price": 600.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "Alice",
+        "rating": 5,
+        "review": "The best restaurant experience I've ever had.",
+        "createdAt": "2024-09-20T12:19:09.454659654"
+      },
+      {
+        "customerName": "Bob",
+        "rating": 4,
+        "review": "Good food, but the service was slow.",
+        "createdAt": "2024-09-20T12:19:09.454690561"
+      },
+      {
+        "customerName": "Charlie",
+        "rating": 3,
+        "review": "Average experience, nothing special.",
+        "createdAt": "2024-09-20T12:19:09.454713792"
+      },
+      {
+        "customerName": "David",
+        "rating": 4,
+        "review": "Great food but a bit pricey.",
+        "createdAt": "2024-09-20T12:19:09.454736615"
+      },
+      {
+        "customerName": "Eve",
+        "rating": 5,
+        "review": "Amazing food and fantastic ambiance.",
+        "createdAt": "2024-09-20T12:19:09.454759343"
+      },
+      {
+        "customerName": "Frank",
+        "rating": 4,
+        "review": "I loved the food, but it was too crowded.",
+        "createdAt": "2024-09-20T12:19:09.454782143"
+      },
+      {
+        "customerName": "Grace",
+        "rating": 5,
+        "review": "The best dishes in town! Highly recommended.",
+        "createdAt": "2024-09-20T12:19:09.454807503"
+      },
+      {
+        "customerName": "Hank",
+        "rating": 4,
+        "review": "Great food, but parking was an issue.",
+        "createdAt": "2024-09-20T12:19:09.45483049"
+      },
+      {
+        "customerName": "Ivy",
+        "rating": 3,
+        "review": "Good food, but the portions were too small.",
+        "createdAt": "2024-09-20T12:19:09.454853984"
+      },
+      {
+        "customerName": "Jack",
+        "rating": 5,
+        "review": "Excellent service and the food was superb.",
+        "createdAt": "2024-09-20T12:19:09.454876789"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T19:00:47.703365",
+    "updatedAt": "2024-09-19T19:00:47.703366"
+  },
+  {
+    "restaurantId": "66ec7524a1a72086fc1ec263",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/sample_image.jpg",
+    "name": "Restaurant 17",
+    "description": "A top-rated restaurant offering the finest cuisines. Restaurant 17 specializes in a wide variety of dishes.",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2",
+      "Cuisine3"
+    ],
+    "address": {
+      "street": "17 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "560017",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+9198765432170",
+      "email": "contact@restaurant17.com",
+      "website": "http://restaurant17.com"
+    },
+    "menu": [
+      {
+        "name": "Grilled Chicken Sandwich",
+        "description": "Grilled chicken with lettuce, tomato, and mayo.",
+        "price": 250.0
+      },
+      {
+        "name": "Cheeseburger",
+        "description": "Beef patty with melted cheese and special sauce.",
+        "price": 300.0
+      },
+      {
+        "name": "Margarita Pizza",
+        "description": "Classic pizza with tomatoes, mozzarella, and basil.",
+        "price": 450.0
+      },
+      {
+        "name": "Caesar Salad",
+        "description": "Romaine lettuce with Caesar dressing and croutons.",
+        "price": 200.0
+      },
+      {
+        "name": "Penne Alfredo",
+        "description": "Pasta in creamy Alfredo sauce.",
+        "price": 350.0
+      },
+      {
+        "name": "Tandoori Chicken",
+        "description": "Chicken marinated in yogurt and spices, cooked in a tandoor.",
+        "price": 500.0
+      },
+      {
+        "name": "Fish Tacos",
+        "description": "Crispy fish with slaw and avocado in soft tortillas.",
+        "price": 400.0
+      },
+      {
+        "name": "Chocolate Lava Cake",
+        "description": "Warm chocolate cake with a molten center.",
+        "price": 180.0
+      },
+      {
+        "name": "Vegetarian Biryani",
+        "description": "Fragrant basmati rice with vegetables and spices.",
+        "price": 300.0
+      },
+      {
+        "name": "Sushi Platter",
+        "description": "Assorted sushi with fresh fish and rice.",
+        "price": 600.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "Alice",
+        "rating": 5,
+        "review": "The best restaurant experience I've ever had.",
+        "createdAt": "2024-09-20T12:19:09.45563107"
+      },
+      {
+        "customerName": "Bob",
+        "rating": 4,
+        "review": "Good food, but the service was slow.",
+        "createdAt": "2024-09-20T12:19:09.455659762"
+      },
+      {
+        "customerName": "Charlie",
+        "rating": 3,
+        "review": "Average experience, nothing special.",
+        "createdAt": "2024-09-20T12:19:09.455680284"
+      },
+      {
+        "customerName": "David",
+        "rating": 4,
+        "review": "Great food but a bit pricey.",
+        "createdAt": "2024-09-20T12:19:09.455702044"
+      },
+      {
+        "customerName": "Eve",
+        "rating": 5,
+        "review": "Amazing food and fantastic ambiance.",
+        "createdAt": "2024-09-20T12:19:09.455722892"
+      },
+      {
+        "customerName": "Frank",
+        "rating": 4,
+        "review": "I loved the food, but it was too crowded.",
+        "createdAt": "2024-09-20T12:19:09.455743423"
+      },
+      {
+        "customerName": "Grace",
+        "rating": 5,
+        "review": "The best dishes in town! Highly recommended.",
+        "createdAt": "2024-09-20T12:19:09.455799201"
+      },
+      {
+        "customerName": "Hank",
+        "rating": 4,
+        "review": "Great food, but parking was an issue.",
+        "createdAt": "2024-09-20T12:19:09.455820828"
+      },
+      {
+        "customerName": "Ivy",
+        "rating": 3,
+        "review": "Good food, but the portions were too small.",
+        "createdAt": "2024-09-20T12:19:09.455842098"
+      },
+      {
+        "customerName": "Jack",
+        "rating": 5,
+        "review": "Excellent service and the food was superb.",
+        "createdAt": "2024-09-20T12:19:09.455862171"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T19:00:47.703372",
+    "updatedAt": "2024-09-19T19:00:47.703373"
+  },
+  {
+    "restaurantId": "66ec7524a1a72086fc1ec264",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/sample_image.jpg",
+    "name": "Restaurant 18",
+    "description": "A top-rated restaurant offering the finest cuisines. Restaurant 18 specializes in a wide variety of dishes.",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2",
+      "Cuisine3"
+    ],
+    "address": {
+      "street": "18 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "560018",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+9198765432180",
+      "email": "contact@restaurant18.com",
+      "website": "http://restaurant18.com"
+    },
+    "menu": [
+      {
+        "name": "Grilled Chicken Sandwich",
+        "description": "Grilled chicken with lettuce, tomato, and mayo.",
+        "price": 250.0
+      },
+      {
+        "name": "Cheeseburger",
+        "description": "Beef patty with melted cheese and special sauce.",
+        "price": 300.0
+      },
+      {
+        "name": "Margarita Pizza",
+        "description": "Classic pizza with tomatoes, mozzarella, and basil.",
+        "price": 450.0
+      },
+      {
+        "name": "Caesar Salad",
+        "description": "Romaine lettuce with Caesar dressing and croutons.",
+        "price": 200.0
+      },
+      {
+        "name": "Penne Alfredo",
+        "description": "Pasta in creamy Alfredo sauce.",
+        "price": 350.0
+      },
+      {
+        "name": "Tandoori Chicken",
+        "description": "Chicken marinated in yogurt and spices, cooked in a tandoor.",
+        "price": 500.0
+      },
+      {
+        "name": "Fish Tacos",
+        "description": "Crispy fish with slaw and avocado in soft tortillas.",
+        "price": 400.0
+      },
+      {
+        "name": "Chocolate Lava Cake",
+        "description": "Warm chocolate cake with a molten center.",
+        "price": 180.0
+      },
+      {
+        "name": "Vegetarian Biryani",
+        "description": "Fragrant basmati rice with vegetables and spices.",
+        "price": 300.0
+      },
+      {
+        "name": "Sushi Platter",
+        "description": "Assorted sushi with fresh fish and rice.",
+        "price": 600.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "Alice",
+        "rating": 5,
+        "review": "The best restaurant experience I've ever had.",
+        "createdAt": "2024-09-20T12:19:09.460129609"
+      },
+      {
+        "customerName": "Bob",
+        "rating": 4,
+        "review": "Good food, but the service was slow.",
+        "createdAt": "2024-09-20T12:19:09.4601808"
+      },
+      {
+        "customerName": "Charlie",
+        "rating": 3,
+        "review": "Average experience, nothing special.",
+        "createdAt": "2024-09-20T12:19:09.460206843"
+      },
+      {
+        "customerName": "David",
+        "rating": 4,
+        "review": "Great food but a bit pricey.",
+        "createdAt": "2024-09-20T12:19:09.460229117"
+      },
+      {
+        "customerName": "Eve",
+        "rating": 5,
+        "review": "Amazing food and fantastic ambiance.",
+        "createdAt": "2024-09-20T12:19:09.460251643"
+      },
+      {
+        "customerName": "Frank",
+        "rating": 4,
+        "review": "I loved the food, but it was too crowded.",
+        "createdAt": "2024-09-20T12:19:09.460274341"
+      },
+      {
+        "customerName": "Grace",
+        "rating": 5,
+        "review": "The best dishes in town! Highly recommended.",
+        "createdAt": "2024-09-20T12:19:09.460296736"
+      },
+      {
+        "customerName": "Hank",
+        "rating": 4,
+        "review": "Great food, but parking was an issue.",
+        "createdAt": "2024-09-20T12:19:09.46031902"
+      },
+      {
+        "customerName": "Ivy",
+        "rating": 3,
+        "review": "Good food, but the portions were too small.",
+        "createdAt": "2024-09-20T12:19:09.460356688"
+      },
+      {
+        "customerName": "Jack",
+        "rating": 5,
+        "review": "Excellent service and the food was superb.",
+        "createdAt": "2024-09-20T12:19:09.460381684"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T19:00:47.703378",
+    "updatedAt": "2024-09-19T19:00:47.703379"
+  },
+  {
+    "restaurantId": "66ec7524a1a72086fc1ec265",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/sample_image.jpg",
+    "name": "Restaurant 19",
+    "description": "A top-rated restaurant offering the finest cuisines. Restaurant 19 specializes in a wide variety of dishes.",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2",
+      "Cuisine3"
+    ],
+    "address": {
+      "street": "19 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "560019",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+9198765432190",
+      "email": "contact@restaurant19.com",
+      "website": "http://restaurant19.com"
+    },
+    "menu": [
+      {
+        "name": "Grilled Chicken Sandwich",
+        "description": "Grilled chicken with lettuce, tomato, and mayo.",
+        "price": 250.0
+      },
+      {
+        "name": "Cheeseburger",
+        "description": "Beef patty with melted cheese and special sauce.",
+        "price": 300.0
+      },
+      {
+        "name": "Margarita Pizza",
+        "description": "Classic pizza with tomatoes, mozzarella, and basil.",
+        "price": 450.0
+      },
+      {
+        "name": "Caesar Salad",
+        "description": "Romaine lettuce with Caesar dressing and croutons.",
+        "price": 200.0
+      },
+      {
+        "name": "Penne Alfredo",
+        "description": "Pasta in creamy Alfredo sauce.",
+        "price": 350.0
+      },
+      {
+        "name": "Tandoori Chicken",
+        "description": "Chicken marinated in yogurt and spices, cooked in a tandoor.",
+        "price": 500.0
+      },
+      {
+        "name": "Fish Tacos",
+        "description": "Crispy fish with slaw and avocado in soft tortillas.",
+        "price": 400.0
+      },
+      {
+        "name": "Chocolate Lava Cake",
+        "description": "Warm chocolate cake with a molten center.",
+        "price": 180.0
+      },
+      {
+        "name": "Vegetarian Biryani",
+        "description": "Fragrant basmati rice with vegetables and spices.",
+        "price": 300.0
+      },
+      {
+        "name": "Sushi Platter",
+        "description": "Assorted sushi with fresh fish and rice.",
+        "price": 600.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "Alice",
+        "rating": 5,
+        "review": "The best restaurant experience I've ever had.",
+        "createdAt": "2024-09-20T12:19:09.462567021"
+      },
+      {
+        "customerName": "Bob",
+        "rating": 4,
+        "review": "Good food, but the service was slow.",
+        "createdAt": "2024-09-20T12:19:09.462610209"
+      },
+      {
+        "customerName": "Charlie",
+        "rating": 3,
+        "review": "Average experience, nothing special.",
+        "createdAt": "2024-09-20T12:19:09.462631547"
+      },
+      {
+        "customerName": "David",
+        "rating": 4,
+        "review": "Great food but a bit pricey.",
+        "createdAt": "2024-09-20T12:19:09.462651345"
+      },
+      {
+        "customerName": "Eve",
+        "rating": 5,
+        "review": "Amazing food and fantastic ambiance.",
+        "createdAt": "2024-09-20T12:19:09.462672734"
+      },
+      {
+        "customerName": "Frank",
+        "rating": 4,
+        "review": "I loved the food, but it was too crowded.",
+        "createdAt": "2024-09-20T12:19:09.462692346"
+      },
+      {
+        "customerName": "Grace",
+        "rating": 5,
+        "review": "The best dishes in town! Highly recommended.",
+        "createdAt": "2024-09-20T12:19:09.462711885"
+      },
+      {
+        "customerName": "Hank",
+        "rating": 4,
+        "review": "Great food, but parking was an issue.",
+        "createdAt": "2024-09-20T12:19:09.4627321"
+      },
+      {
+        "customerName": "Ivy",
+        "rating": 3,
+        "review": "Good food, but the portions were too small.",
+        "createdAt": "2024-09-20T12:19:09.462753938"
+      },
+      {
+        "customerName": "Jack",
+        "rating": 5,
+        "review": "Excellent service and the food was superb.",
+        "createdAt": "2024-09-20T12:19:09.462775715"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T19:00:47.703387",
+    "updatedAt": "2024-09-19T19:00:47.703389"
+  },
+  {
+    "restaurantId": "66ec7524a1a72086fc1ec266",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/sample_image.jpg",
+    "name": "Restaurant 20",
+    "description": "A top-rated restaurant offering the finest cuisines. Restaurant 20 specializes in a wide variety of dishes.",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2",
+      "Cuisine3"
+    ],
+    "address": {
+      "street": "20 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "560020",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+9198765432200",
+      "email": "contact@restaurant20.com",
+      "website": "http://restaurant20.com"
+    },
+    "menu": [
+      {
+        "name": "Grilled Chicken Sandwich",
+        "description": "Grilled chicken with lettuce, tomato, and mayo.",
+        "price": 250.0
+      },
+      {
+        "name": "Cheeseburger",
+        "description": "Beef patty with melted cheese and special sauce.",
+        "price": 300.0
+      },
+      {
+        "name": "Margarita Pizza",
+        "description": "Classic pizza with tomatoes, mozzarella, and basil.",
+        "price": 450.0
+      },
+      {
+        "name": "Caesar Salad",
+        "description": "Romaine lettuce with Caesar dressing and croutons.",
+        "price": 200.0
+      },
+      {
+        "name": "Penne Alfredo",
+        "description": "Pasta in creamy Alfredo sauce.",
+        "price": 350.0
+      },
+      {
+        "name": "Tandoori Chicken",
+        "description": "Chicken marinated in yogurt and spices, cooked in a tandoor.",
+        "price": 500.0
+      },
+      {
+        "name": "Fish Tacos",
+        "description": "Crispy fish with slaw and avocado in soft tortillas.",
+        "price": 400.0
+      },
+      {
+        "name": "Chocolate Lava Cake",
+        "description": "Warm chocolate cake with a molten center.",
+        "price": 180.0
+      },
+      {
+        "name": "Vegetarian Biryani",
+        "description": "Fragrant basmati rice with vegetables and spices.",
+        "price": 300.0
+      },
+      {
+        "name": "Sushi Platter",
+        "description": "Assorted sushi with fresh fish and rice.",
+        "price": 600.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "Alice",
+        "rating": 5,
+        "review": "The best restaurant experience I've ever had.",
+        "createdAt": "2024-09-20T12:19:09.46358053"
+      },
+      {
+        "customerName": "Bob",
+        "rating": 4,
+        "review": "Good food, but the service was slow.",
+        "createdAt": "2024-09-20T12:19:09.463611211"
+      },
+      {
+        "customerName": "Charlie",
+        "rating": 3,
+        "review": "Average experience, nothing special.",
+        "createdAt": "2024-09-20T12:19:09.463633479"
+      },
+      {
+        "customerName": "David",
+        "rating": 4,
+        "review": "Great food but a bit pricey.",
+        "createdAt": "2024-09-20T12:19:09.463654529"
+      },
+      {
+        "customerName": "Eve",
+        "rating": 5,
+        "review": "Amazing food and fantastic ambiance.",
+        "createdAt": "2024-09-20T12:19:09.463675213"
+      },
+      {
+        "customerName": "Frank",
+        "rating": 4,
+        "review": "I loved the food, but it was too crowded.",
+        "createdAt": "2024-09-20T12:19:09.463695834"
+      },
+      {
+        "customerName": "Grace",
+        "rating": 5,
+        "review": "The best dishes in town! Highly recommended.",
+        "createdAt": "2024-09-20T12:19:09.463716042"
+      },
+      {
+        "customerName": "Hank",
+        "rating": 4,
+        "review": "Great food, but parking was an issue.",
+        "createdAt": "2024-09-20T12:19:09.463736336"
+      },
+      {
+        "customerName": "Ivy",
+        "rating": 3,
+        "review": "Good food, but the portions were too small.",
+        "createdAt": "2024-09-20T12:19:09.463756588"
+      },
+      {
+        "customerName": "Jack",
+        "rating": 5,
+        "review": "Excellent service and the food was superb.",
+        "createdAt": "2024-09-20T12:19:09.463777079"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T19:00:47.703393",
+    "updatedAt": "2024-09-19T19:00:47.703395"
+  },
+  {
+    "restaurantId": "66ec7533a1a72086fc1ec267",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/d3najev2rpzakxfvp318",
+    "name": "Restaurant 1",
+    "description": "Description of Restaurant 1",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2"
+    ],
+    "address": {
+      "street": "1 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "56001",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919876543210",
+      "email": "contact@restaurant1.com",
+      "website": "http://restaurant1.com"
+    },
+    "menu": [
+      {
+        "name": "Dish 1",
+        "description": "A delicious dish",
+        "price": 200.0
+      },
+      {
+        "name": "Dish 2",
+        "description": "Another great dish",
+        "price": 150.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "John Doe",
+        "rating": 5,
+        "review": "Amazing food and great service.",
+        "createdAt": "2024-09-20T12:19:09.464379438"
+      },
+      {
+        "customerName": "Jane Smith",
+        "rating": 4,
+        "review": "Good food but could be better.",
+        "createdAt": "2024-09-20T12:19:09.464412147"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T18:58:22.518016",
+    "updatedAt": "2024-09-19T18:58:22.518024"
+  },
+  {
+    "restaurantId": "66ec7533a1a72086fc1ec268",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/d3najev2rpzakxfvp318",
+    "name": "Restaurant 2",
+    "description": "Description of Restaurant 2",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2"
+    ],
+    "address": {
+      "street": "2 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "56002",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919876543210",
+      "email": "contact@restaurant2.com",
+      "website": "http://restaurant2.com"
+    },
+    "menu": [
+      {
+        "name": "Dish 1",
+        "description": "A delicious dish",
+        "price": 200.0
+      },
+      {
+        "name": "Dish 2",
+        "description": "Another great dish",
+        "price": 150.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "John Doe",
+        "rating": 5,
+        "review": "Amazing food and great service.",
+        "createdAt": "2024-09-20T12:19:09.464884089"
+      },
+      {
+        "customerName": "Jane Smith",
+        "rating": 4,
+        "review": "Good food but could be better.",
+        "createdAt": "2024-09-20T12:19:09.464915768"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T18:58:22.518029",
+    "updatedAt": "2024-09-19T18:58:22.51803"
+  },
+  {
+    "restaurantId": "66ec7533a1a72086fc1ec269",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/d3najev2rpzakxfvp318",
+    "name": "Restaurant 3",
+    "description": "Description of Restaurant 3",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2"
+    ],
+    "address": {
+      "street": "3 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "56003",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919876543210",
+      "email": "contact@restaurant3.com",
+      "website": "http://restaurant3.com"
+    },
+    "menu": [
+      {
+        "name": "Dish 1",
+        "description": "A delicious dish",
+        "price": 200.0
+      },
+      {
+        "name": "Dish 2",
+        "description": "Another great dish",
+        "price": 150.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "John Doe",
+        "rating": 5,
+        "review": "Amazing food and great service.",
+        "createdAt": "2024-09-20T12:19:09.465450039"
+      },
+      {
+        "customerName": "Jane Smith",
+        "rating": 4,
+        "review": "Good food but could be better.",
+        "createdAt": "2024-09-20T12:19:09.465475777"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T18:58:22.518034",
+    "updatedAt": "2024-09-19T18:58:22.518035"
+  },
+  {
+    "restaurantId": "66ec7533a1a72086fc1ec26a",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/d3najev2rpzakxfvp318",
+    "name": "Restaurant 4",
+    "description": "Description of Restaurant 4",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2"
+    ],
+    "address": {
+      "street": "4 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "56004",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919876543210",
+      "email": "contact@restaurant4.com",
+      "website": "http://restaurant4.com"
+    },
+    "menu": [
+      {
+        "name": "Dish 1",
+        "description": "A delicious dish",
+        "price": 200.0
+      },
+      {
+        "name": "Dish 2",
+        "description": "Another great dish",
+        "price": 150.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "John Doe",
+        "rating": 5,
+        "review": "Amazing food and great service.",
+        "createdAt": "2024-09-20T12:19:09.465975555"
+      },
+      {
+        "customerName": "Jane Smith",
+        "rating": 4,
+        "review": "Good food but could be better.",
+        "createdAt": "2024-09-20T12:19:09.46600327"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T18:58:22.518039",
+    "updatedAt": "2024-09-19T18:58:22.51804"
+  },
+  {
+    "restaurantId": "66ec7533a1a72086fc1ec26b",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/d3najev2rpzakxfvp318",
+    "name": "Restaurant 5",
+    "description": "Description of Restaurant 5",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2"
+    ],
+    "address": {
+      "street": "5 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "56005",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919876543210",
+      "email": "contact@restaurant5.com",
+      "website": "http://restaurant5.com"
+    },
+    "menu": [
+      {
+        "name": "Dish 1",
+        "description": "A delicious dish",
+        "price": 200.0
+      },
+      {
+        "name": "Dish 2",
+        "description": "Another great dish",
+        "price": 150.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "John Doe",
+        "rating": 5,
+        "review": "Amazing food and great service.",
+        "createdAt": "2024-09-20T12:19:09.466530927"
+      },
+      {
+        "customerName": "Jane Smith",
+        "rating": 4,
+        "review": "Good food but could be better.",
+        "createdAt": "2024-09-20T12:19:09.466558298"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T18:58:22.518044",
+    "updatedAt": "2024-09-19T18:58:22.518045"
+  },
+  {
+    "restaurantId": "66ec7533a1a72086fc1ec26c",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/d3najev2rpzakxfvp318",
+    "name": "Restaurant 6",
+    "description": "Description of Restaurant 6",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2"
+    ],
+    "address": {
+      "street": "6 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "56006",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919876543210",
+      "email": "contact@restaurant6.com",
+      "website": "http://restaurant6.com"
+    },
+    "menu": [
+      {
+        "name": "Dish 1",
+        "description": "A delicious dish",
+        "price": 200.0
+      },
+      {
+        "name": "Dish 2",
+        "description": "Another great dish",
+        "price": 150.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "John Doe",
+        "rating": 5,
+        "review": "Amazing food and great service.",
+        "createdAt": "2024-09-20T12:19:09.467043943"
+      },
+      {
+        "customerName": "Jane Smith",
+        "rating": 4,
+        "review": "Good food but could be better.",
+        "createdAt": "2024-09-20T12:19:09.467068446"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T18:58:22.518048",
+    "updatedAt": "2024-09-19T18:58:22.518049"
+  },
+  {
+    "restaurantId": "66ec7533a1a72086fc1ec26d",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/d3najev2rpzakxfvp318",
+    "name": "Restaurant 7",
+    "description": "Description of Restaurant 7",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2"
+    ],
+    "address": {
+      "street": "7 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "56007",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919876543210",
+      "email": "contact@restaurant7.com",
+      "website": "http://restaurant7.com"
+    },
+    "menu": [
+      {
+        "name": "Dish 1",
+        "description": "A delicious dish",
+        "price": 200.0
+      },
+      {
+        "name": "Dish 2",
+        "description": "Another great dish",
+        "price": 150.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "John Doe",
+        "rating": 5,
+        "review": "Amazing food and great service.",
+        "createdAt": "2024-09-20T12:19:09.467551777"
+      },
+      {
+        "customerName": "Jane Smith",
+        "rating": 4,
+        "review": "Good food but could be better.",
+        "createdAt": "2024-09-20T12:19:09.467578165"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T18:58:22.518053",
+    "updatedAt": "2024-09-19T18:58:22.518054"
+  },
+  {
+    "restaurantId": "66ec7533a1a72086fc1ec26e",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/d3najev2rpzakxfvp318",
+    "name": "Restaurant 8",
+    "description": "Description of Restaurant 8",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2"
+    ],
+    "address": {
+      "street": "8 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "56008",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919876543210",
+      "email": "contact@restaurant8.com",
+      "website": "http://restaurant8.com"
+    },
+    "menu": [
+      {
+        "name": "Dish 1",
+        "description": "A delicious dish",
+        "price": 200.0
+      },
+      {
+        "name": "Dish 2",
+        "description": "Another great dish",
+        "price": 150.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "John Doe",
+        "rating": 5,
+        "review": "Amazing food and great service.",
+        "createdAt": "2024-09-20T12:19:09.46805421"
+      },
+      {
+        "customerName": "Jane Smith",
+        "rating": 4,
+        "review": "Good food but could be better.",
+        "createdAt": "2024-09-20T12:19:09.468082248"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T18:58:22.518065",
+    "updatedAt": "2024-09-19T18:58:22.518067"
+  },
+  {
+    "restaurantId": "66ec7533a1a72086fc1ec26f",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/d3najev2rpzakxfvp318",
+    "name": "Restaurant 9",
+    "description": "Description of Restaurant 9",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2"
+    ],
+    "address": {
+      "street": "9 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "56009",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919876543210",
+      "email": "contact@restaurant9.com",
+      "website": "http://restaurant9.com"
+    },
+    "menu": [
+      {
+        "name": "Dish 1",
+        "description": "A delicious dish",
+        "price": 200.0
+      },
+      {
+        "name": "Dish 2",
+        "description": "Another great dish",
+        "price": 150.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "John Doe",
+        "rating": 5,
+        "review": "Amazing food and great service.",
+        "createdAt": "2024-09-20T12:19:09.468594488"
+      },
+      {
+        "customerName": "Jane Smith",
+        "rating": 4,
+        "review": "Good food but could be better.",
+        "createdAt": "2024-09-20T12:19:09.468621491"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T18:58:22.518071",
+    "updatedAt": "2024-09-19T18:58:22.518072"
+  },
+  {
+    "restaurantId": "66ec7533a1a72086fc1ec270",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/d3najev2rpzakxfvp318",
+    "name": "Restaurant 10",
+    "description": "Description of Restaurant 10",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2"
+    ],
+    "address": {
+      "street": "10 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "560010",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919876543210",
+      "email": "contact@restaurant10.com",
+      "website": "http://restaurant10.com"
+    },
+    "menu": [
+      {
+        "name": "Dish 1",
+        "description": "A delicious dish",
+        "price": 200.0
+      },
+      {
+        "name": "Dish 2",
+        "description": "Another great dish",
+        "price": 150.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "John Doe",
+        "rating": 5,
+        "review": "Amazing food and great service.",
+        "createdAt": "2024-09-20T12:19:09.469101039"
+      },
+      {
+        "customerName": "Jane Smith",
+        "rating": 4,
+        "review": "Good food but could be better.",
+        "createdAt": "2024-09-20T12:19:09.469135523"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T18:58:22.518076",
+    "updatedAt": "2024-09-19T18:58:22.518077"
+  },
+  {
+    "restaurantId": "66ec7533a1a72086fc1ec271",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/d3najev2rpzakxfvp318",
+    "name": "Restaurant 11",
+    "description": "Description of Restaurant 11",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2"
+    ],
+    "address": {
+      "street": "11 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "560011",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919876543210",
+      "email": "contact@restaurant11.com",
+      "website": "http://restaurant11.com"
+    },
+    "menu": [
+      {
+        "name": "Dish 1",
+        "description": "A delicious dish",
+        "price": 200.0
+      },
+      {
+        "name": "Dish 2",
+        "description": "Another great dish",
+        "price": 150.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "John Doe",
+        "rating": 5,
+        "review": "Amazing food and great service.",
+        "createdAt": "2024-09-20T12:19:09.469621732"
+      },
+      {
+        "customerName": "Jane Smith",
+        "rating": 4,
+        "review": "Good food but could be better.",
+        "createdAt": "2024-09-20T12:19:09.469645815"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T18:58:22.518081",
+    "updatedAt": "2024-09-19T18:58:22.518082"
+  },
+  {
+    "restaurantId": "66ec7533a1a72086fc1ec272",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/d3najev2rpzakxfvp318",
+    "name": "Restaurant 12",
+    "description": "Description of Restaurant 12",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2"
+    ],
+    "address": {
+      "street": "12 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "560012",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919876543210",
+      "email": "contact@restaurant12.com",
+      "website": "http://restaurant12.com"
+    },
+    "menu": [
+      {
+        "name": "Dish 1",
+        "description": "A delicious dish",
+        "price": 200.0
+      },
+      {
+        "name": "Dish 2",
+        "description": "Another great dish",
+        "price": 150.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "John Doe",
+        "rating": 5,
+        "review": "Amazing food and great service.",
+        "createdAt": "2024-09-20T12:19:09.470135947"
+      },
+      {
+        "customerName": "Jane Smith",
+        "rating": 4,
+        "review": "Good food but could be better.",
+        "createdAt": "2024-09-20T12:19:09.470161935"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T18:58:22.518085",
+    "updatedAt": "2024-09-19T18:58:22.518086"
+  },
+  {
+    "restaurantId": "66ec7533a1a72086fc1ec273",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/d3najev2rpzakxfvp318",
+    "name": "Restaurant 13",
+    "description": "Description of Restaurant 13",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2"
+    ],
+    "address": {
+      "street": "13 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "560013",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919876543210",
+      "email": "contact@restaurant13.com",
+      "website": "http://restaurant13.com"
+    },
+    "menu": [
+      {
+        "name": "Dish 1",
+        "description": "A delicious dish",
+        "price": 200.0
+      },
+      {
+        "name": "Dish 2",
+        "description": "Another great dish",
+        "price": 150.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "John Doe",
+        "rating": 5,
+        "review": "Amazing food and great service.",
+        "createdAt": "2024-09-20T12:19:09.470628528"
+      },
+      {
+        "customerName": "Jane Smith",
+        "rating": 4,
+        "review": "Good food but could be better.",
+        "createdAt": "2024-09-20T12:19:09.470652683"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T18:58:22.518089",
+    "updatedAt": "2024-09-19T18:58:22.51809"
+  },
+  {
+    "restaurantId": "66ec7533a1a72086fc1ec274",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/d3najev2rpzakxfvp318",
+    "name": "Restaurant 14",
+    "description": "Description of Restaurant 14",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2"
+    ],
+    "address": {
+      "street": "14 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "560014",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919876543210",
+      "email": "contact@restaurant14.com",
+      "website": "http://restaurant14.com"
+    },
+    "menu": [
+      {
+        "name": "Dish 1",
+        "description": "A delicious dish",
+        "price": 200.0
+      },
+      {
+        "name": "Dish 2",
+        "description": "Another great dish",
+        "price": 150.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "John Doe",
+        "rating": 5,
+        "review": "Amazing food and great service.",
+        "createdAt": "2024-09-20T12:19:09.471069389"
+      },
+      {
+        "customerName": "Jane Smith",
+        "rating": 4,
+        "review": "Good food but could be better.",
+        "createdAt": "2024-09-20T12:19:09.47109434"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T18:58:22.518096",
+    "updatedAt": "2024-09-19T18:58:22.518097"
+  },
+  {
+    "restaurantId": "66ec7533a1a72086fc1ec275",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/d3najev2rpzakxfvp318",
+    "name": "Restaurant 15",
+    "description": "Description of Restaurant 15",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2"
+    ],
+    "address": {
+      "street": "15 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "560015",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919876543210",
+      "email": "contact@restaurant15.com",
+      "website": "http://restaurant15.com"
+    },
+    "menu": [
+      {
+        "name": "Dish 1",
+        "description": "A delicious dish",
+        "price": 200.0
+      },
+      {
+        "name": "Dish 2",
+        "description": "Another great dish",
+        "price": 150.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "John Doe",
+        "rating": 5,
+        "review": "Amazing food and great service.",
+        "createdAt": "2024-09-20T12:19:09.471536642"
+      },
+      {
+        "customerName": "Jane Smith",
+        "rating": 4,
+        "review": "Good food but could be better.",
+        "createdAt": "2024-09-20T12:19:09.471561381"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T18:58:22.518099",
+    "updatedAt": "2024-09-19T18:58:22.5181"
+  },
+  {
+    "restaurantId": "66ec7533a1a72086fc1ec276",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/d3najev2rpzakxfvp318",
+    "name": "Restaurant 16",
+    "description": "Description of Restaurant 16",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2"
+    ],
+    "address": {
+      "street": "16 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "560016",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919876543210",
+      "email": "contact@restaurant16.com",
+      "website": "http://restaurant16.com"
+    },
+    "menu": [
+      {
+        "name": "Dish 1",
+        "description": "A delicious dish",
+        "price": 200.0
+      },
+      {
+        "name": "Dish 2",
+        "description": "Another great dish",
+        "price": 150.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "John Doe",
+        "rating": 5,
+        "review": "Amazing food and great service.",
+        "createdAt": "2024-09-20T12:19:09.471989389"
+      },
+      {
+        "customerName": "Jane Smith",
+        "rating": 4,
+        "review": "Good food but could be better.",
+        "createdAt": "2024-09-20T12:19:09.472013109"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T18:58:22.518103",
+    "updatedAt": "2024-09-19T18:58:22.518104"
+  },
+  {
+    "restaurantId": "66ec7533a1a72086fc1ec277",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/d3najev2rpzakxfvp318",
+    "name": "Restaurant 17",
+    "description": "Description of Restaurant 17",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2"
+    ],
+    "address": {
+      "street": "17 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "560017",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919876543210",
+      "email": "contact@restaurant17.com",
+      "website": "http://restaurant17.com"
+    },
+    "menu": [
+      {
+        "name": "Dish 1",
+        "description": "A delicious dish",
+        "price": 200.0
+      },
+      {
+        "name": "Dish 2",
+        "description": "Another great dish",
+        "price": 150.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "John Doe",
+        "rating": 5,
+        "review": "Amazing food and great service.",
+        "createdAt": "2024-09-20T12:19:09.472486275"
+      },
+      {
+        "customerName": "Jane Smith",
+        "rating": 4,
+        "review": "Good food but could be better.",
+        "createdAt": "2024-09-20T12:19:09.47251618"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T18:58:22.518107",
+    "updatedAt": "2024-09-19T18:58:22.518108"
+  },
+  {
+    "restaurantId": "66ec7533a1a72086fc1ec278",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/d3najev2rpzakxfvp318",
+    "name": "Restaurant 18",
+    "description": "Description of Restaurant 18",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2"
+    ],
+    "address": {
+      "street": "18 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "560018",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919876543210",
+      "email": "contact@restaurant18.com",
+      "website": "http://restaurant18.com"
+    },
+    "menu": [
+      {
+        "name": "Dish 1",
+        "description": "A delicious dish",
+        "price": 200.0
+      },
+      {
+        "name": "Dish 2",
+        "description": "Another great dish",
+        "price": 150.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "John Doe",
+        "rating": 5,
+        "review": "Amazing food and great service.",
+        "createdAt": "2024-09-20T12:19:09.472969646"
+      },
+      {
+        "customerName": "Jane Smith",
+        "rating": 4,
+        "review": "Good food but could be better.",
+        "createdAt": "2024-09-20T12:19:09.472995752"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T18:58:22.518111",
+    "updatedAt": "2024-09-19T18:58:22.518113"
+  },
+  {
+    "restaurantId": "66ec7533a1a72086fc1ec279",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/d3najev2rpzakxfvp318",
+    "name": "Restaurant 19",
+    "description": "Description of Restaurant 19",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2"
+    ],
+    "address": {
+      "street": "19 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "560019",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919876543210",
+      "email": "contact@restaurant19.com",
+      "website": "http://restaurant19.com"
+    },
+    "menu": [
+      {
+        "name": "Dish 1",
+        "description": "A delicious dish",
+        "price": 200.0
+      },
+      {
+        "name": "Dish 2",
+        "description": "Another great dish",
+        "price": 150.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "John Doe",
+        "rating": 5,
+        "review": "Amazing food and great service.",
+        "createdAt": "2024-09-20T12:19:09.473469527"
+      },
+      {
+        "customerName": "Jane Smith",
+        "rating": 4,
+        "review": "Good food but could be better.",
+        "createdAt": "2024-09-20T12:19:09.473494689"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T18:58:22.518117",
+    "updatedAt": "2024-09-19T18:58:22.518118"
+  },
+  {
+    "restaurantId": "66ec7533a1a72086fc1ec27a",
+    "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/d3najev2rpzakxfvp318",
+    "name": "Restaurant 20",
+    "description": "Description of Restaurant 20",
+    "cuisines": [
+      "Cuisine1",
+      "Cuisine2"
+    ],
+    "address": {
+      "street": "20 Main St",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "560020",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+919876543210",
+      "email": "contact@restaurant20.com",
+      "website": "http://restaurant20.com"
+    },
+    "menu": [
+      {
+        "name": "Dish 1",
+        "description": "A delicious dish",
+        "price": 200.0
+      },
+      {
+        "name": "Dish 2",
+        "description": "Another great dish",
+        "price": 150.0
+      }
+    ],
+    "ratings": [
+      {
+        "customerName": "John Doe",
+        "rating": 5,
+        "review": "Amazing food and great service.",
+        "createdAt": "2024-09-20T12:19:09.473925956"
+      },
+      {
+        "customerName": "Jane Smith",
+        "rating": 4,
+        "review": "Good food but could be better.",
+        "createdAt": "2024-09-20T12:19:09.473950882"
+      }
+    ],
+    "averageRating": 4.5,
+    "createdAt": "2024-09-19T18:58:22.51812",
+    "updatedAt": "2024-09-19T18:58:22.518121"
+  }
+]
