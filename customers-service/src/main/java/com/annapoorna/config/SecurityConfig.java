@@ -46,18 +46,13 @@ public class SecurityConfig {
 	@Bean
 	public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
 		return http
-				.csrf()
-				.disable()
-				.authorizeHttpRequests()
-				.antMatchers("/api/v1/customers/welcome","/api/v1/customers/register", "/api/v1/customers/email").permitAll() // It can be called as white listed
-				.and()
-				.authorizeHttpRequests()
-				.antMatchers("/api/v1/customers/**").hasAnyRole("ADMIN")
-				//.authenticated()
-				.and()
-				.sessionManagement()
-				.sessionCreationPolicy(SessionCreationPolicy.STATELESS)
-				.and()
+				.csrf(csrf -> csrf.disable())
+				.authorizeHttpRequests(auth -> auth
+						.requestMatchers("/api/v1/customers/welcome", "/api/v1/customers/register", "/api/v1/customers/email").permitAll()
+						.requestMatchers("/api/v1/customers/**").hasAnyRole("ADMIN")
+						.anyRequest().authenticated()
+				)
+				.sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
 				.authenticationProvider(authenticationProvider())
 				.addFilterBefore(authFilter, UsernamePasswordAuthenticationFilter.class)
 				.build();

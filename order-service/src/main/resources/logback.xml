@@ -16,14 +16,11 @@
 				%msg%n</pattern>
 		</encoder>
 		<rollingPolicy
-			class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
 			<!-- rollover daily and keep 30 days' worth of history -->
 			<fileNamePattern>logs/app.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
 			<maxHistory>7</maxHistory>
-			<timeBasedFileNamingAndTriggeringPolicy
-				class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
-				<maxFileSize>5MB</maxFileSize>
-			</timeBasedFileNamingAndTriggeringPolicy>
+			<maxFileSize>5MB</maxFileSize>
 		</rollingPolicy>
 	</appender>
 
