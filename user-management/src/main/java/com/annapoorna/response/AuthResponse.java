@@ -11,4 +11,6 @@ public class AuthResponse {
     private String message;
 
     private USER_ROLE role;
+    
+    private String userId;
 }

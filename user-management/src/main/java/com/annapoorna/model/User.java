@@ -3,7 +3,6 @@ package com.annapoorna.model;
 import com.annapoorna.dto.RestaurantDTO;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.*;
-import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 import java.util.ArrayList;
@@ -17,7 +16,7 @@ import java.util.List;
 public class User {
 
     @Id
-    private ObjectId userId;
+    private String userId;
 
     private String fullName;
 

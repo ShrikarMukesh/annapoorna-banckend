@@ -27,12 +27,13 @@ public class JwtProvider {
                 .setExpiration(new Date(new Date().getTime() + 864000000))
                 .claim("email", authentication.getName())
                 .claim("authorities", roles)
+                .claim("scope", "read write") // Adding default scopes for now, can be dynamic based on role
                 .signWith(key)
                 .compact();
     }
 
     public String getEmailFromToken(String jwt) {
-        jwt  = jwt.substring(7);
+        jwt = jwt.substring(7);
 
         Claims claims = Jwts.parserBuilder()
                 .setSigningKey(key)
@@ -40,10 +41,10 @@ public class JwtProvider {
                 .parseClaimsJws(jwt)
                 .getBody();
 
-       return String.valueOf(claims.get("email"));
+        return String.valueOf(claims.get("email"));
     }
 
-    private String populateAuthorities(Collection<? extends GrantedAuthority > authorities) {
+    private String populateAuthorities(Collection<? extends GrantedAuthority> authorities) {
         Set<String> auths = new HashSet<>();
 
         for (GrantedAuthority authority : authorities) {
