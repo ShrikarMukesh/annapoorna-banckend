@@ -6,6 +6,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 import com.annapoorna.entity.Customer;
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -19,15 +20,18 @@ public class UserInfoUserDetails implements UserDetails {
 	private List<GrantedAuthority> authorities;
 
 	public UserInfoUserDetails(Customer customer) {
-		username=customer.getUserName();
-		password=customer.getPassword();
-		authorities = customer.getRoles().stream()
-				.map(role -> new SimpleGrantedAuthority(role.name()))
-				.collect(Collectors.toList());
-
-		//		authorities= Arrays.stream(customer.getRoles().iterator().split(","))
-		//				.map(SimpleGrantedAuthority::new)
-		//				.collect(Collectors.toList());
+		username = customer.getUserName();
+		if (username == null || username.isEmpty()) {
+			username = customer.getEmail();
+		}
+		password = customer.getPassword();
+		if (customer.getRoles() != null) {
+			authorities = customer.getRoles().stream()
+					.map(role -> new SimpleGrantedAuthority(role.name()))
+					.collect(Collectors.toList());
+		} else {
+			authorities = new ArrayList<>();
+		}
 	}
 
 	@Override

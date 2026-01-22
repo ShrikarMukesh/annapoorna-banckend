@@ -1,0 +1,42 @@
+{
+  "name": "Sushi World",
+  "description": "A premium sushi restaurant offering the freshest seafood and authentic Japanese dishes.",
+  "cuisines": ["Japanese", "Sushi", "Asian"],
+  "cloudinaryImageId": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/7b2e4e3f4484dc3f8a9b715e3e746e77",
+  "address": {
+    "street": "56 Koramangala 5th Block",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "zipCode": "560034",
+    "country": "India"
+  },
+  "contact": {
+    "phone": "+919876543210",
+    "email": "info@sushiworld.com",
+    "website": "http://sushiworld.com"
+  },
+  "menu": [
+    {
+      "name": "Spicy Tuna Roll",
+      "description": "Tuna roll with spicy mayo and fresh vegetables",
+      "price": 450
+    },
+    {
+      "name": "Salmon Nigiri",
+      "description": "Fresh salmon atop seasoned sushi rice",
+      "price": 350
+    }
+  ],
+  "ratings": [
+    {
+      "customerName": "Rhea Kapoor",
+      "rating": 5,
+      "review": "The sushi is fresh and delicious!"
+    },
+    {
+      "customerName": "Kunal Roy",
+      "rating": 4,
+      "review": "Great sushi but a bit pricey."
+    }
+  ]
+}

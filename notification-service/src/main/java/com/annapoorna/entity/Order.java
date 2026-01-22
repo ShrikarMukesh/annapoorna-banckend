@@ -7,6 +7,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 
 @Getter
 @Setter
@@ -16,12 +19,18 @@ import lombok.ToString;
 public class Order {
 	
     private String orderId;
+
     private String customerId;
+	@NotBlank(message = "Restaurant ID cannot be blank")
 	private String restaurantID;
 	private Address address;
+    @Valid
+    @NotNull(message = "Order items cannot be null")
     private List<OrderItem> items;
     private double totalCost;
     private OrderStatus orderStatus;
+    @Valid
+    @NotNull(message = "Payment cannot be null")
     private Payment payment;
     private String deliveryDetailsId;
     private long packagingCharge;

@@ -1,0 +1,1882 @@
+[
+  {
+    "restaurantId": "res_001",
+    "name": "Meghana Foods",
+    "description": "Popular restaurant number 1.",
+    "cloudinaryImageId": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=660&q=80",
+    "cuisines": [
+      "Indian",
+      "Multi-Cuisine"
+    ],
+    "isOpen": true,
+    "isActive": true,
+    "deliveryTimeInMinutes": 50,
+    "costForTwo": 510,
+    "averageRating": 4.1,
+    "ratingCount": 2818,
+    "menu": [
+      {
+        "id": "res1_01",
+        "name": "Menu Item 1",
+        "description": "Delicious menu item number 1.",
+        "price": 500,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.2,
+        "ratingCount": 44,
+        "isCustomisable": true,
+        "category": "Recommended",
+        "available": true,
+        "discount": {
+          "amount": 150,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res1_02",
+        "name": "Menu Item 2",
+        "description": "Delicious menu item number 2.",
+        "price": 347,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 3.9,
+        "ratingCount": 160,
+        "isCustomisable": false,
+        "category": "Main Course",
+        "available": true,
+        "discount": {
+          "amount": 150,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res1_03",
+        "name": "Menu Item 3",
+        "description": "Delicious menu item number 3.",
+        "price": 282,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.1,
+        "ratingCount": 90,
+        "isCustomisable": true,
+        "category": "Recommended",
+        "available": true,
+        "discount": {
+          "amount": 0,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res1_04",
+        "name": "Menu Item 4",
+        "description": "Delicious menu item number 4.",
+        "price": 144,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.0,
+        "ratingCount": 170,
+        "isCustomisable": true,
+        "category": "Desserts",
+        "available": true,
+        "discount": {
+          "amount": 150,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res1_05",
+        "name": "Menu Item 5",
+        "description": "Delicious menu item number 5.",
+        "price": 207,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.5,
+        "ratingCount": 131,
+        "isCustomisable": false,
+        "category": "Desserts",
+        "available": true,
+        "discount": {
+          "amount": 0,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res1_06",
+        "name": "Menu Item 6",
+        "description": "Delicious menu item number 6.",
+        "price": 147,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.1,
+        "ratingCount": 120,
+        "isCustomisable": false,
+        "category": "Recommended",
+        "available": true,
+        "discount": {
+          "amount": 200,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res1_07",
+        "name": "Menu Item 7",
+        "description": "Delicious menu item number 7.",
+        "price": 447,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.6,
+        "ratingCount": 141,
+        "isCustomisable": true,
+        "category": "Desserts",
+        "available": true,
+        "discount": {
+          "amount": 0,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res1_08",
+        "name": "Menu Item 8",
+        "description": "Delicious menu item number 8.",
+        "price": 189,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.4,
+        "ratingCount": 78,
+        "isCustomisable": true,
+        "category": "Starters",
+        "available": true,
+        "discount": {
+          "amount": 50,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res1_09",
+        "name": "Menu Item 9",
+        "description": "Delicious menu item number 9.",
+        "price": 221,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.4,
+        "ratingCount": 174,
+        "isCustomisable": true,
+        "category": "Main Course",
+        "available": true,
+        "discount": {
+          "amount": 200,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res1_10",
+        "name": "Menu Item 10",
+        "description": "Delicious menu item number 10.",
+        "price": 315,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.4,
+        "ratingCount": 73,
+        "isCustomisable": false,
+        "category": "Recommended",
+        "available": true,
+        "discount": {
+          "amount": 150,
+          "label": "OFFER"
+        }
+      }
+    ]
+  },
+  {
+    "restaurantId": "res_002",
+    "name": "Pizza Hut",
+    "description": "Popular restaurant number 2.",
+    "cloudinaryImageId": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=660&q=80",
+    "cuisines": [
+      "Indian",
+      "Multi-Cuisine"
+    ],
+    "isOpen": true,
+    "isActive": true,
+    "deliveryTimeInMinutes": 25,
+    "costForTwo": 342,
+    "averageRating": 4.3,
+    "ratingCount": 2399,
+    "menu": [
+      {
+        "id": "res2_01",
+        "name": "Menu Item 1",
+        "description": "Delicious menu item number 1.",
+        "price": 308,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.3,
+        "ratingCount": 166,
+        "isCustomisable": false,
+        "category": "Main Course",
+        "available": true,
+        "discount": {
+          "amount": 50,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res2_02",
+        "name": "Menu Item 2",
+        "description": "Delicious menu item number 2.",
+        "price": 494,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 3.9,
+        "ratingCount": 27,
+        "isCustomisable": false,
+        "category": "Starters",
+        "available": true,
+        "discount": {
+          "amount": 0,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res2_03",
+        "name": "Menu Item 3",
+        "description": "Delicious menu item number 3.",
+        "price": 219,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 3.9,
+        "ratingCount": 156,
+        "isCustomisable": false,
+        "category": "Main Course",
+        "available": true,
+        "discount": {
+          "amount": 50,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res2_04",
+        "name": "Menu Item 4",
+        "description": "Delicious menu item number 4.",
+        "price": 334,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.0,
+        "ratingCount": 133,
+        "isCustomisable": false,
+        "category": "Desserts",
+        "available": true,
+        "discount": {
+          "amount": 200,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res2_05",
+        "name": "Menu Item 5",
+        "description": "Delicious menu item number 5.",
+        "price": 497,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 3.8,
+        "ratingCount": 151,
+        "isCustomisable": false,
+        "category": "Main Course",
+        "available": true,
+        "discount": {
+          "amount": 200,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res2_06",
+        "name": "Menu Item 6",
+        "description": "Delicious menu item number 6.",
+        "price": 279,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.1,
+        "ratingCount": 102,
+        "isCustomisable": false,
+        "category": "Desserts",
+        "available": true,
+        "discount": {
+          "amount": 0,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res2_07",
+        "name": "Menu Item 7",
+        "description": "Delicious menu item number 7.",
+        "price": 157,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 3.9,
+        "ratingCount": 78,
+        "isCustomisable": false,
+        "category": "Starters",
+        "available": true,
+        "discount": {
+          "amount": 100,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res2_08",
+        "name": "Menu Item 8",
+        "description": "Delicious menu item number 8.",
+        "price": 343,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.7,
+        "ratingCount": 104,
+        "isCustomisable": false,
+        "category": "Recommended",
+        "available": true,
+        "discount": {
+          "amount": 100,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res2_09",
+        "name": "Menu Item 9",
+        "description": "Delicious menu item number 9.",
+        "price": 406,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 3.8,
+        "ratingCount": 114,
+        "isCustomisable": false,
+        "category": "Main Course",
+        "available": true,
+        "discount": {
+          "amount": 200,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res2_10",
+        "name": "Menu Item 10",
+        "description": "Delicious menu item number 10.",
+        "price": 441,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.3,
+        "ratingCount": 146,
+        "isCustomisable": true,
+        "category": "Recommended",
+        "available": true,
+        "discount": {
+          "amount": 150,
+          "label": "OFFER"
+        }
+      }
+    ]
+  },
+  {
+    "restaurantId": "res_003",
+    "name": "KFC",
+    "description": "Popular restaurant number 3.",
+    "cloudinaryImageId": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=660&q=80",
+    "cuisines": [
+      "Indian",
+      "Multi-Cuisine"
+    ],
+    "isOpen": true,
+    "isActive": true,
+    "deliveryTimeInMinutes": 39,
+    "costForTwo": 397,
+    "averageRating": 4.5,
+    "ratingCount": 4819,
+    "menu": [
+      {
+        "id": "res3_01",
+        "name": "Menu Item 1",
+        "description": "Delicious menu item number 1.",
+        "price": 273,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.0,
+        "ratingCount": 83,
+        "isCustomisable": true,
+        "category": "Desserts",
+        "available": true,
+        "discount": {
+          "amount": 150,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res3_02",
+        "name": "Menu Item 2",
+        "description": "Delicious menu item number 2.",
+        "price": 284,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.2,
+        "ratingCount": 23,
+        "isCustomisable": true,
+        "category": "Starters",
+        "available": true,
+        "discount": {
+          "amount": 0,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res3_03",
+        "name": "Menu Item 3",
+        "description": "Delicious menu item number 3.",
+        "price": 136,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 3.9,
+        "ratingCount": 52,
+        "isCustomisable": true,
+        "category": "Desserts",
+        "available": true,
+        "discount": {
+          "amount": 150,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res3_04",
+        "name": "Menu Item 4",
+        "description": "Delicious menu item number 4.",
+        "price": 362,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.0,
+        "ratingCount": 159,
+        "isCustomisable": true,
+        "category": "Starters",
+        "available": true,
+        "discount": {
+          "amount": 100,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res3_05",
+        "name": "Menu Item 5",
+        "description": "Delicious menu item number 5.",
+        "price": 413,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 3.9,
+        "ratingCount": 101,
+        "isCustomisable": false,
+        "category": "Recommended",
+        "available": true,
+        "discount": {
+          "amount": 50,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res3_06",
+        "name": "Menu Item 6",
+        "description": "Delicious menu item number 6.",
+        "price": 318,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 3.9,
+        "ratingCount": 26,
+        "isCustomisable": false,
+        "category": "Recommended",
+        "available": true,
+        "discount": {
+          "amount": 0,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res3_07",
+        "name": "Menu Item 7",
+        "description": "Delicious menu item number 7.",
+        "price": 208,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.2,
+        "ratingCount": 179,
+        "isCustomisable": false,
+        "category": "Recommended",
+        "available": true,
+        "discount": {
+          "amount": 0,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res3_08",
+        "name": "Menu Item 8",
+        "description": "Delicious menu item number 8.",
+        "price": 284,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.3,
+        "ratingCount": 104,
+        "isCustomisable": true,
+        "category": "Desserts",
+        "available": true,
+        "discount": {
+          "amount": 200,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res3_09",
+        "name": "Menu Item 9",
+        "description": "Delicious menu item number 9.",
+        "price": 456,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 3.8,
+        "ratingCount": 113,
+        "isCustomisable": false,
+        "category": "Starters",
+        "available": true,
+        "discount": {
+          "amount": 100,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res3_10",
+        "name": "Menu Item 10",
+        "description": "Delicious menu item number 10.",
+        "price": 202,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 3.8,
+        "ratingCount": 87,
+        "isCustomisable": true,
+        "category": "Starters",
+        "available": true,
+        "discount": {
+          "amount": 200,
+          "label": "OFFER"
+        }
+      }
+    ]
+  },
+  {
+    "restaurantId": "res_004",
+    "name": "A2B",
+    "description": "Popular restaurant number 4.",
+    "cloudinaryImageId": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=660&q=80",
+    "cuisines": [
+      "Indian",
+      "Multi-Cuisine"
+    ],
+    "isOpen": true,
+    "isActive": true,
+    "deliveryTimeInMinutes": 42,
+    "costForTwo": 386,
+    "averageRating": 4.6,
+    "ratingCount": 3650,
+    "menu": [
+      {
+        "id": "res4_01",
+        "name": "Menu Item 1",
+        "description": "Delicious menu item number 1.",
+        "price": 126,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.4,
+        "ratingCount": 141,
+        "isCustomisable": false,
+        "category": "Starters",
+        "available": true,
+        "discount": {
+          "amount": 0,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res4_02",
+        "name": "Menu Item 2",
+        "description": "Delicious menu item number 2.",
+        "price": 137,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.1,
+        "ratingCount": 108,
+        "isCustomisable": true,
+        "category": "Starters",
+        "available": true,
+        "discount": {
+          "amount": 0,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res4_03",
+        "name": "Menu Item 3",
+        "description": "Delicious menu item number 3.",
+        "price": 291,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.1,
+        "ratingCount": 146,
+        "isCustomisable": false,
+        "category": "Main Course",
+        "available": true,
+        "discount": {
+          "amount": 0,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res4_04",
+        "name": "Menu Item 4",
+        "description": "Delicious menu item number 4.",
+        "price": 384,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.3,
+        "ratingCount": 181,
+        "isCustomisable": true,
+        "category": "Starters",
+        "available": true,
+        "discount": {
+          "amount": 150,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res4_05",
+        "name": "Menu Item 5",
+        "description": "Delicious menu item number 5.",
+        "price": 459,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.7,
+        "ratingCount": 19,
+        "isCustomisable": false,
+        "category": "Starters",
+        "available": true,
+        "discount": {
+          "amount": 150,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res4_06",
+        "name": "Menu Item 6",
+        "description": "Delicious menu item number 6.",
+        "price": 333,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.3,
+        "ratingCount": 109,
+        "isCustomisable": false,
+        "category": "Main Course",
+        "available": true,
+        "discount": {
+          "amount": 100,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res4_07",
+        "name": "Menu Item 7",
+        "description": "Delicious menu item number 7.",
+        "price": 298,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.1,
+        "ratingCount": 118,
+        "isCustomisable": false,
+        "category": "Starters",
+        "available": true,
+        "discount": {
+          "amount": 50,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res4_08",
+        "name": "Menu Item 8",
+        "description": "Delicious menu item number 8.",
+        "price": 194,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.6,
+        "ratingCount": 77,
+        "isCustomisable": true,
+        "category": "Main Course",
+        "available": true,
+        "discount": {
+          "amount": 150,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res4_09",
+        "name": "Menu Item 9",
+        "description": "Delicious menu item number 9.",
+        "price": 398,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.4,
+        "ratingCount": 98,
+        "isCustomisable": true,
+        "category": "Starters",
+        "available": true,
+        "discount": {
+          "amount": 150,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res4_10",
+        "name": "Menu Item 10",
+        "description": "Delicious menu item number 10.",
+        "price": 314,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.5,
+        "ratingCount": 93,
+        "isCustomisable": true,
+        "category": "Main Course",
+        "available": true,
+        "discount": {
+          "amount": 50,
+          "label": "OFFER"
+        }
+      }
+    ]
+  },
+  {
+    "restaurantId": "res_005",
+    "name": "Panjabi Dhami",
+    "description": "Popular restaurant number 5.",
+    "cloudinaryImageId": "https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?w=660&q=80",
+    "cuisines": [
+      "Indian",
+      "Multi-Cuisine"
+    ],
+    "isOpen": true,
+    "isActive": true,
+    "deliveryTimeInMinutes": 31,
+    "costForTwo": 451,
+    "averageRating": 4.0,
+    "ratingCount": 4071,
+    "menu": [
+      {
+        "id": "res5_01",
+        "name": "Menu Item 1",
+        "description": "Delicious menu item number 1.",
+        "price": 121,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.1,
+        "ratingCount": 180,
+        "isCustomisable": true,
+        "category": "Desserts",
+        "available": true,
+        "discount": {
+          "amount": 100,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res5_02",
+        "name": "Menu Item 2",
+        "description": "Delicious menu item number 2.",
+        "price": 283,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.0,
+        "ratingCount": 173,
+        "isCustomisable": true,
+        "category": "Main Course",
+        "available": true,
+        "discount": {
+          "amount": 200,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res5_03",
+        "name": "Menu Item 3",
+        "description": "Delicious menu item number 3.",
+        "price": 458,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.3,
+        "ratingCount": 96,
+        "isCustomisable": false,
+        "category": "Starters",
+        "available": true,
+        "discount": {
+          "amount": 50,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res5_04",
+        "name": "Menu Item 4",
+        "description": "Delicious menu item number 4.",
+        "price": 439,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.2,
+        "ratingCount": 189,
+        "isCustomisable": true,
+        "category": "Recommended",
+        "available": true,
+        "discount": {
+          "amount": 150,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res5_05",
+        "name": "Menu Item 5",
+        "description": "Delicious menu item number 5.",
+        "price": 120,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.1,
+        "ratingCount": 132,
+        "isCustomisable": false,
+        "category": "Main Course",
+        "available": true,
+        "discount": {
+          "amount": 200,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res5_06",
+        "name": "Menu Item 6",
+        "description": "Delicious menu item number 6.",
+        "price": 161,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.3,
+        "ratingCount": 111,
+        "isCustomisable": true,
+        "category": "Main Course",
+        "available": true,
+        "discount": {
+          "amount": 0,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res5_07",
+        "name": "Menu Item 7",
+        "description": "Delicious menu item number 7.",
+        "price": 392,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.2,
+        "ratingCount": 172,
+        "isCustomisable": true,
+        "category": "Desserts",
+        "available": true,
+        "discount": {
+          "amount": 0,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res5_08",
+        "name": "Menu Item 8",
+        "description": "Delicious menu item number 8.",
+        "price": 446,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 3.9,
+        "ratingCount": 98,
+        "isCustomisable": true,
+        "category": "Recommended",
+        "available": true,
+        "discount": {
+          "amount": 0,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res5_09",
+        "name": "Menu Item 9",
+        "description": "Delicious menu item number 9.",
+        "price": 499,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.5,
+        "ratingCount": 57,
+        "isCustomisable": true,
+        "category": "Recommended",
+        "available": true,
+        "discount": {
+          "amount": 150,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res5_10",
+        "name": "Menu Item 10",
+        "description": "Delicious menu item number 10.",
+        "price": 398,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.2,
+        "ratingCount": 44,
+        "isCustomisable": true,
+        "category": "Starters",
+        "available": true,
+        "discount": {
+          "amount": 0,
+          "label": "OFFER"
+        }
+      }
+    ]
+  },
+  {
+    "restaurantId": "res_006",
+    "name": "Gouli Hotel",
+    "description": "Popular restaurant number 6.",
+    "cloudinaryImageId": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=660&q=80",
+    "cuisines": [
+      "Indian",
+      "Multi-Cuisine"
+    ],
+    "isOpen": true,
+    "isActive": true,
+    "deliveryTimeInMinutes": 45,
+    "costForTwo": 431,
+    "averageRating": 4.3,
+    "ratingCount": 2956,
+    "menu": [
+      {
+        "id": "res6_01",
+        "name": "Menu Item 1",
+        "description": "Delicious menu item number 1.",
+        "price": 302,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.3,
+        "ratingCount": 92,
+        "isCustomisable": true,
+        "category": "Starters",
+        "available": true,
+        "discount": {
+          "amount": 0,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res6_02",
+        "name": "Menu Item 2",
+        "description": "Delicious menu item number 2.",
+        "price": 288,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.1,
+        "ratingCount": 99,
+        "isCustomisable": false,
+        "category": "Main Course",
+        "available": true,
+        "discount": {
+          "amount": 150,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res6_03",
+        "name": "Menu Item 3",
+        "description": "Delicious menu item number 3.",
+        "price": 309,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.7,
+        "ratingCount": 89,
+        "isCustomisable": false,
+        "category": "Main Course",
+        "available": true,
+        "discount": {
+          "amount": 200,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res6_04",
+        "name": "Menu Item 4",
+        "description": "Delicious menu item number 4.",
+        "price": 128,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.4,
+        "ratingCount": 74,
+        "isCustomisable": false,
+        "category": "Main Course",
+        "available": true,
+        "discount": {
+          "amount": 200,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res6_05",
+        "name": "Menu Item 5",
+        "description": "Delicious menu item number 5.",
+        "price": 146,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.5,
+        "ratingCount": 119,
+        "isCustomisable": false,
+        "category": "Main Course",
+        "available": true,
+        "discount": {
+          "amount": 200,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res6_06",
+        "name": "Menu Item 6",
+        "description": "Delicious menu item number 6.",
+        "price": 368,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.1,
+        "ratingCount": 129,
+        "isCustomisable": true,
+        "category": "Starters",
+        "available": true,
+        "discount": {
+          "amount": 150,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res6_07",
+        "name": "Menu Item 7",
+        "description": "Delicious menu item number 7.",
+        "price": 334,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.0,
+        "ratingCount": 100,
+        "isCustomisable": true,
+        "category": "Starters",
+        "available": true,
+        "discount": {
+          "amount": 100,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res6_08",
+        "name": "Menu Item 8",
+        "description": "Delicious menu item number 8.",
+        "price": 425,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.4,
+        "ratingCount": 48,
+        "isCustomisable": false,
+        "category": "Main Course",
+        "available": true,
+        "discount": {
+          "amount": 200,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res6_09",
+        "name": "Menu Item 9",
+        "description": "Delicious menu item number 9.",
+        "price": 375,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.5,
+        "ratingCount": 54,
+        "isCustomisable": false,
+        "category": "Starters",
+        "available": true,
+        "discount": {
+          "amount": 100,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res6_10",
+        "name": "Menu Item 10",
+        "description": "Delicious menu item number 10.",
+        "price": 298,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.5,
+        "ratingCount": 21,
+        "isCustomisable": false,
+        "category": "Main Course",
+        "available": true,
+        "discount": {
+          "amount": 50,
+          "label": "OFFER"
+        }
+      }
+    ]
+  },
+  {
+    "restaurantId": "res_007",
+    "name": "Guntur Biriyani",
+    "description": "Popular restaurant number 7.",
+    "cloudinaryImageId": "https://images.unsplash.com/photo-1642821373181-696a54913e93?w=660&q=80",
+    "cuisines": [
+      "Indian",
+      "Multi-Cuisine"
+    ],
+    "isOpen": true,
+    "isActive": true,
+    "deliveryTimeInMinutes": 40,
+    "costForTwo": 635,
+    "averageRating": 4.4,
+    "ratingCount": 2681,
+    "menu": [
+      {
+        "id": "res7_01",
+        "name": "Menu Item 1",
+        "description": "Delicious menu item number 1.",
+        "price": 233,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.1,
+        "ratingCount": 41,
+        "isCustomisable": true,
+        "category": "Main Course",
+        "available": true,
+        "discount": {
+          "amount": 100,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res7_02",
+        "name": "Menu Item 2",
+        "description": "Delicious menu item number 2.",
+        "price": 381,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.0,
+        "ratingCount": 145,
+        "isCustomisable": false,
+        "category": "Desserts",
+        "available": true,
+        "discount": {
+          "amount": 100,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res7_03",
+        "name": "Menu Item 3",
+        "description": "Delicious menu item number 3.",
+        "price": 391,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.5,
+        "ratingCount": 33,
+        "isCustomisable": false,
+        "category": "Desserts",
+        "available": true,
+        "discount": {
+          "amount": 100,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res7_04",
+        "name": "Menu Item 4",
+        "description": "Delicious menu item number 4.",
+        "price": 395,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.3,
+        "ratingCount": 149,
+        "isCustomisable": true,
+        "category": "Desserts",
+        "available": true,
+        "discount": {
+          "amount": 100,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res7_05",
+        "name": "Menu Item 5",
+        "description": "Delicious menu item number 5.",
+        "price": 149,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.3,
+        "ratingCount": 142,
+        "isCustomisable": true,
+        "category": "Main Course",
+        "available": true,
+        "discount": {
+          "amount": 200,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res7_06",
+        "name": "Menu Item 6",
+        "description": "Delicious menu item number 6.",
+        "price": 202,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.0,
+        "ratingCount": 173,
+        "isCustomisable": false,
+        "category": "Main Course",
+        "available": true,
+        "discount": {
+          "amount": 200,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res7_07",
+        "name": "Menu Item 7",
+        "description": "Delicious menu item number 7.",
+        "price": 266,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 3.9,
+        "ratingCount": 186,
+        "isCustomisable": true,
+        "category": "Recommended",
+        "available": true,
+        "discount": {
+          "amount": 50,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res7_08",
+        "name": "Menu Item 8",
+        "description": "Delicious menu item number 8.",
+        "price": 277,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.0,
+        "ratingCount": 161,
+        "isCustomisable": false,
+        "category": "Desserts",
+        "available": true,
+        "discount": {
+          "amount": 150,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res7_09",
+        "name": "Menu Item 9",
+        "description": "Delicious menu item number 9.",
+        "price": 367,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.7,
+        "ratingCount": 117,
+        "isCustomisable": true,
+        "category": "Desserts",
+        "available": true,
+        "discount": {
+          "amount": 0,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res7_10",
+        "name": "Menu Item 10",
+        "description": "Delicious menu item number 10.",
+        "price": 212,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.3,
+        "ratingCount": 139,
+        "isCustomisable": true,
+        "category": "Recommended",
+        "available": true,
+        "discount": {
+          "amount": 150,
+          "label": "OFFER"
+        }
+      }
+    ]
+  },
+  {
+    "restaurantId": "res_008",
+    "name": "Halli Mane",
+    "description": "Popular restaurant number 8.",
+    "cloudinaryImageId": "https://images.unsplash.com/photo-1598182198871-d3f4ab4fd181?w=660&q=80",
+    "cuisines": [
+      "Indian",
+      "Multi-Cuisine"
+    ],
+    "isOpen": true,
+    "isActive": true,
+    "deliveryTimeInMinutes": 24,
+    "costForTwo": 576,
+    "averageRating": 4.0,
+    "ratingCount": 2849,
+    "menu": [
+      {
+        "id": "res8_01",
+        "name": "Menu Item 1",
+        "description": "Delicious menu item number 1.",
+        "price": 327,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.0,
+        "ratingCount": 80,
+        "isCustomisable": false,
+        "category": "Main Course",
+        "available": true,
+        "discount": {
+          "amount": 0,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res8_02",
+        "name": "Menu Item 2",
+        "description": "Delicious menu item number 2.",
+        "price": 351,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.7,
+        "ratingCount": 64,
+        "isCustomisable": true,
+        "category": "Main Course",
+        "available": true,
+        "discount": {
+          "amount": 100,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res8_03",
+        "name": "Menu Item 3",
+        "description": "Delicious menu item number 3.",
+        "price": 383,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.6,
+        "ratingCount": 179,
+        "isCustomisable": true,
+        "category": "Recommended",
+        "available": true,
+        "discount": {
+          "amount": 100,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res8_04",
+        "name": "Menu Item 4",
+        "description": "Delicious menu item number 4.",
+        "price": 335,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.1,
+        "ratingCount": 98,
+        "isCustomisable": false,
+        "category": "Starters",
+        "available": true,
+        "discount": {
+          "amount": 0,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res8_05",
+        "name": "Menu Item 5",
+        "description": "Delicious menu item number 5.",
+        "price": 255,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.4,
+        "ratingCount": 168,
+        "isCustomisable": false,
+        "category": "Starters",
+        "available": true,
+        "discount": {
+          "amount": 150,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res8_06",
+        "name": "Menu Item 6",
+        "description": "Delicious menu item number 6.",
+        "price": 333,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.2,
+        "ratingCount": 200,
+        "isCustomisable": true,
+        "category": "Desserts",
+        "available": true,
+        "discount": {
+          "amount": 150,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res8_07",
+        "name": "Menu Item 7",
+        "description": "Delicious menu item number 7.",
+        "price": 348,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.0,
+        "ratingCount": 70,
+        "isCustomisable": false,
+        "category": "Recommended",
+        "available": true,
+        "discount": {
+          "amount": 0,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res8_08",
+        "name": "Menu Item 8",
+        "description": "Delicious menu item number 8.",
+        "price": 473,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.3,
+        "ratingCount": 67,
+        "isCustomisable": false,
+        "category": "Main Course",
+        "available": true,
+        "discount": {
+          "amount": 150,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res8_09",
+        "name": "Menu Item 9",
+        "description": "Delicious menu item number 9.",
+        "price": 444,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.4,
+        "ratingCount": 65,
+        "isCustomisable": true,
+        "category": "Starters",
+        "available": true,
+        "discount": {
+          "amount": 0,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res8_10",
+        "name": "Menu Item 10",
+        "description": "Delicious menu item number 10.",
+        "price": 301,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.2,
+        "ratingCount": 101,
+        "isCustomisable": false,
+        "category": "Desserts",
+        "available": true,
+        "discount": {
+          "amount": 200,
+          "label": "OFFER"
+        }
+      }
+    ]
+  },
+  {
+    "restaurantId": "res_009",
+    "name": "McDonald's",
+    "description": "Popular restaurant number 9.",
+    "cloudinaryImageId": "",
+    "cuisines": [
+      "Indian",
+      "Multi-Cuisine"
+    ],
+    "isOpen": true,
+    "isActive": true,
+    "deliveryTimeInMinutes": 35,
+    "costForTwo": 340,
+    "averageRating": 4.3,
+    "ratingCount": 4583,
+    "menu": [
+      {
+        "id": "res9_01",
+        "name": "Menu Item 1",
+        "description": "Delicious menu item number 1.",
+        "price": 459,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.7,
+        "ratingCount": 166,
+        "isCustomisable": false,
+        "category": "Main Course",
+        "available": true,
+        "discount": {
+          "amount": 0,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res9_02",
+        "name": "Menu Item 2",
+        "description": "Delicious menu item number 2.",
+        "price": 258,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.2,
+        "ratingCount": 38,
+        "isCustomisable": true,
+        "category": "Recommended",
+        "available": true,
+        "discount": {
+          "amount": 0,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res9_03",
+        "name": "Menu Item 3",
+        "description": "Delicious menu item number 3.",
+        "price": 364,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.5,
+        "ratingCount": 81,
+        "isCustomisable": true,
+        "category": "Main Course",
+        "available": true,
+        "discount": {
+          "amount": 0,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res9_04",
+        "name": "Menu Item 4",
+        "description": "Delicious menu item number 4.",
+        "price": 157,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.1,
+        "ratingCount": 158,
+        "isCustomisable": true,
+        "category": "Recommended",
+        "available": true,
+        "discount": {
+          "amount": 50,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res9_05",
+        "name": "Menu Item 5",
+        "description": "Delicious menu item number 5.",
+        "price": 344,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.7,
+        "ratingCount": 30,
+        "isCustomisable": true,
+        "category": "Starters",
+        "available": true,
+        "discount": {
+          "amount": 150,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res9_06",
+        "name": "Menu Item 6",
+        "description": "Delicious menu item number 6.",
+        "price": 231,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.1,
+        "ratingCount": 177,
+        "isCustomisable": false,
+        "category": "Main Course",
+        "available": true,
+        "discount": {
+          "amount": 150,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res9_07",
+        "name": "Menu Item 7",
+        "description": "Delicious menu item number 7.",
+        "price": 183,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 3.8,
+        "ratingCount": 80,
+        "isCustomisable": false,
+        "category": "Main Course",
+        "available": true,
+        "discount": {
+          "amount": 200,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res9_08",
+        "name": "Menu Item 8",
+        "description": "Delicious menu item number 8.",
+        "price": 239,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.4,
+        "ratingCount": 67,
+        "isCustomisable": true,
+        "category": "Main Course",
+        "available": true,
+        "discount": {
+          "amount": 200,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res9_09",
+        "name": "Menu Item 9",
+        "description": "Delicious menu item number 9.",
+        "price": 148,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.2,
+        "ratingCount": 47,
+        "isCustomisable": true,
+        "category": "Starters",
+        "available": true,
+        "discount": {
+          "amount": 150,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res9_10",
+        "name": "Menu Item 10",
+        "description": "Delicious menu item number 10.",
+        "price": 286,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.5,
+        "ratingCount": 174,
+        "isCustomisable": true,
+        "category": "Desserts",
+        "available": true,
+        "discount": {
+          "amount": 0,
+          "label": "OFFER"
+        }
+      }
+    ]
+  },
+  {
+    "restaurantId": "res_010",
+    "name": "Chinese Wok",
+    "description": "Popular restaurant number 10.",
+    "cloudinaryImageId": "https://images.unsplash.com/photo-1525755662778-989d0524087e?w=660&q=80",
+    "cuisines": [
+      "Indian",
+      "Multi-Cuisine"
+    ],
+    "isOpen": true,
+    "isActive": true,
+    "deliveryTimeInMinutes": 50,
+    "costForTwo": 489,
+    "averageRating": 4.6,
+    "ratingCount": 2017,
+    "menu": [
+      {
+        "id": "res10_01",
+        "name": "Menu Item 1",
+        "description": "Delicious menu item number 1.",
+        "price": 335,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.0,
+        "ratingCount": 161,
+        "isCustomisable": false,
+        "category": "Desserts",
+        "available": true,
+        "discount": {
+          "amount": 100,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res10_02",
+        "name": "Menu Item 2",
+        "description": "Delicious menu item number 2.",
+        "price": 484,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.3,
+        "ratingCount": 42,
+        "isCustomisable": true,
+        "category": "Main Course",
+        "available": true,
+        "discount": {
+          "amount": 0,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res10_03",
+        "name": "Menu Item 3",
+        "description": "Delicious menu item number 3.",
+        "price": 230,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 3.9,
+        "ratingCount": 137,
+        "isCustomisable": false,
+        "category": "Recommended",
+        "available": true,
+        "discount": {
+          "amount": 150,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res10_04",
+        "name": "Menu Item 4",
+        "description": "Delicious menu item number 4.",
+        "price": 320,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.0,
+        "ratingCount": 53,
+        "isCustomisable": false,
+        "category": "Recommended",
+        "available": true,
+        "discount": {
+          "amount": 50,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res10_05",
+        "name": "Menu Item 5",
+        "description": "Delicious menu item number 5.",
+        "price": 144,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 3.8,
+        "ratingCount": 130,
+        "isCustomisable": false,
+        "category": "Main Course",
+        "available": true,
+        "discount": {
+          "amount": 200,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res10_06",
+        "name": "Menu Item 6",
+        "description": "Delicious menu item number 6.",
+        "price": 205,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.7,
+        "ratingCount": 16,
+        "isCustomisable": true,
+        "category": "Starters",
+        "available": true,
+        "discount": {
+          "amount": 200,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res10_07",
+        "name": "Menu Item 7",
+        "description": "Delicious menu item number 7.",
+        "price": 232,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 3.9,
+        "ratingCount": 74,
+        "isCustomisable": true,
+        "category": "Desserts",
+        "available": true,
+        "discount": {
+          "amount": 200,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res10_08",
+        "name": "Menu Item 8",
+        "description": "Delicious menu item number 8.",
+        "price": 428,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.3,
+        "ratingCount": 188,
+        "isCustomisable": false,
+        "category": "Desserts",
+        "available": true,
+        "discount": {
+          "amount": 0,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res10_09",
+        "name": "Menu Item 9",
+        "description": "Delicious menu item number 9.",
+        "price": 176,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": false,
+        "rating": 4.2,
+        "ratingCount": 199,
+        "isCustomisable": false,
+        "category": "Recommended",
+        "available": true,
+        "discount": {
+          "amount": 100,
+          "label": "OFFER"
+        }
+      },
+      {
+        "id": "res10_10",
+        "name": "Menu Item 10",
+        "description": "Delicious menu item number 10.",
+        "price": 451,
+        "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=600&q=80",
+        "isVeg": true,
+        "rating": 4.4,
+        "ratingCount": 148,
+        "isCustomisable": true,
+        "category": "Recommended",
+        "available": true,
+        "discount": {
+          "amount": 100,
+          "label": "OFFER"
+        }
+      }
+    ]
+  }
+]

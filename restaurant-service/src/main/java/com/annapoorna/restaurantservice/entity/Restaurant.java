@@ -7,6 +7,7 @@ import jakarta.validation.constraints.PositiveOrZero;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 import lombok.Data;
 
@@ -25,25 +26,20 @@ public class Restaurant {
 	@NotBlank(message = "Description is required")
 	private String description;
 
-	@NotNull(message = "Cuisine list cannot be null")
 	@Valid
-	private List<String> cuisines;
+	private List<String> cuisines = new ArrayList<>();
 
-	@NotNull(message = "Address cannot be null")
 	@Valid
 	private Address address;
 
-	@NotNull(message = "Contact information cannot be null")
 	@Valid
 	private Contact contact;
 
-	@NotNull(message = "Menu items list cannot be null")
 	@Valid
-	private List<MenuItem> menu;
+	private List<MenuItem> menu = new ArrayList<>();
 
-	@NotNull(message = "Ratings list cannot be null")
 	@Valid
-	private List<Rating> ratings;
+	private List<Rating> ratings = new ArrayList<>();
 
 	@PositiveOrZero(message = "Average rating must be a positive or zero value")
 	private double averageRating;
@@ -63,7 +59,7 @@ public class Restaurant {
 
 	// Method to update average rating
 	public void updateAverageRating() {
-		if (!ratings.isEmpty()) {
+		if (ratings != null && !ratings.isEmpty()) {
 			this.averageRating = ratings.stream()
 					.mapToDouble(Rating::getRating)
 					.average()
@@ -74,4 +70,3 @@ public class Restaurant {
 		this.updatedAt = LocalDateTime.now(); // Update the timestamp when ratings change
 	}
 }
-

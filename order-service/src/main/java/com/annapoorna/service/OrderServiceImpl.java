@@ -60,14 +60,21 @@ public class OrderServiceImpl implements OrderService {
 		Order response = orderRepository.save(order);
 		sendOrderToKafka(response);
 
-		return orderRepository.save(order);
+		// Return the saved entity (do not save again)
+		return response;
 	}
 
 	private void sendOrderToKafka(Order response) {
 
-		if (Optional.ofNullable(response).isPresent()) {
-			// Publish the order to a Kafka topic before saving it
-			kafkaTemplate.send(topic, response);
+		if (response != null && kafkaTemplate != null) {
+			try {
+				kafkaTemplate.send(topic, response);
+				log.info("Published order with id {} to topic {}", response.getOrderId(), topic);
+			} catch (Exception e) {
+				log.error("Failed to publish order {} to kafka topic {}: {}", response.getOrderId(), topic, e.getMessage(), e);
+			}
+		} else {
+			log.debug("Skipping kafka publish because response or kafkaTemplate is null");
 		}
 	}
 

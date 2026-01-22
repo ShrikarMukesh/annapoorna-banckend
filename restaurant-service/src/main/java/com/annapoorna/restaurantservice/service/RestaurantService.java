@@ -12,6 +12,8 @@ public interface RestaurantService {
 
 	Restaurant createRestaurant(Restaurant restaurant);
 
+	List<Restaurant> createRestaurants(List<Restaurant> restaurants);
+
 	Restaurant updateRestaurant(String id, Restaurant updatedRestaurant);
 
 	void deleteRestaurant(String id);

@@ -49,6 +49,15 @@ public class RestaurantController {
         return new ResponseEntity<>(createdRestaurant, HttpStatus.CREATED);
     }
 
+    @PostMapping("/bulk")
+    public ResponseEntity<List<Restaurant>> createRestaurants(@Valid @RequestBody List<Restaurant> restaurants) {
+        for (Restaurant restaurant : restaurants) {
+            restaurant.updateAverageRating(); // Automatically calculate average rating
+        }
+        List<Restaurant> createdRestaurants = restaurantService.createRestaurants(restaurants);
+        return new ResponseEntity<>(createdRestaurants, HttpStatus.CREATED);
+    }
+
     @PutMapping("/{id}")
     public ResponseEntity<Restaurant> updateRestaurant(@PathVariable String id, @Valid @RequestBody Restaurant updatedRestaurant) {
         Restaurant restaurant = restaurantService.updateRestaurant(id, updatedRestaurant);
@@ -65,4 +74,3 @@ public class RestaurantController {
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 }
-

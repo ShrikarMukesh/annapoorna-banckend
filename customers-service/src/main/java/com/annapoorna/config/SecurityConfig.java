@@ -10,6 +10,7 @@ import org.springframework.security.config.annotation.authentication.configurati
 import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -17,7 +18,6 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import com.annapoorna.auth.UserInfoUserDetailsService;
 import com.annapoorna.filter.JwtAuthFilter;
 
 @Configuration
@@ -27,29 +27,19 @@ public class SecurityConfig {
 
 	@Autowired
 	private JwtAuthFilter authFilter;
-
-	@Bean
-	//authentication
-	public UserDetailsService userDetailsService() {
-		//        UserDetails admin = User.withUsername("Basant")
-		//                .password(encoder.encode("Pwd1"))
-		//                .roles("ADMIN")
-		//                .build();
-		//        UserDetails user = User.withUsername("John")
-		//                .password(encoder.encode("Pwd2"))
-		//                .roles("USER","ADMIN","HR")
-		//                .build();
-		//        return new InMemoryUserDetailsManager(admin, user);
-		return new UserInfoUserDetailsService();
-	}
+	
+	@Autowired
+	private UserDetailsService userDetailsService;
 
 	@Bean
 	public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
 		return http
-				.csrf(csrf -> csrf.disable())
+				.csrf(AbstractHttpConfigurer::disable)
+				.cors(AbstractHttpConfigurer::disable)
+				.httpBasic(AbstractHttpConfigurer::disable)
 				.authorizeHttpRequests(auth -> auth
-						.requestMatchers("/api/v1/customers/welcome", "/api/v1/customers/register", "/api/v1/customers/email").permitAll()
-						.requestMatchers("/api/v1/customers/**").hasAnyRole("ADMIN")
+						.requestMatchers("/api/v1/customers/welcome", "/api/v1/customers/register", "/api/v1/customers/email", "/api/v1/customers/authenticate", "/api/v1/customers/authentication").permitAll()
+						.requestMatchers("/api/v1/customers/**").hasAuthority("ADMIN")
 						.anyRequest().authenticated()
 				)
 				.sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
@@ -66,7 +56,7 @@ public class SecurityConfig {
 	@Bean
 	public AuthenticationProvider authenticationProvider(){
 		DaoAuthenticationProvider authenticationProvider=new DaoAuthenticationProvider();
-		authenticationProvider.setUserDetailsService(userDetailsService());
+		authenticationProvider.setUserDetailsService(userDetailsService);
 		authenticationProvider.setPasswordEncoder(passwordEncoder());
 		return authenticationProvider;
 	}

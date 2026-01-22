@@ -1,5 +1,6 @@
 package com.annapoorna.entity;
 
+import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -22,7 +23,7 @@ import java.util.List;
 public class Order {
 	
     @Id
-    private String orderId;
+    private ObjectId orderId;
 
     @NotBlank(message = "Customer ID cannot be blank")
     private String customerId;

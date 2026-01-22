@@ -33,6 +33,11 @@ public class RestaurantServiceImpl implements RestaurantService {
 	}
 
 	@Override
+	public List<Restaurant> createRestaurants(List<Restaurant> restaurants) {
+		return restaurantRepository.saveAll(restaurants);
+	}
+
+	@Override
 	public Restaurant updateRestaurant(String id, Restaurant updatedRestaurant) {
 		Restaurant existingRestaurant = restaurantRepository.findById(id).orElse(null);
 		if (existingRestaurant != null) {
