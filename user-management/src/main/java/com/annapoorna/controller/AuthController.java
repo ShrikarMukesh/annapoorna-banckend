@@ -1,6 +1,7 @@
 package com.annapoorna.controller;
 
 import com.annapoorna.config.JwtProvider;
+import com.annapoorna.dto.UserCreatedEvent;
 import com.annapoorna.model.Cart;
 import com.annapoorna.model.USER_ROLE;
 import com.annapoorna.model.User;
@@ -12,6 +13,7 @@ import com.annapoorna.service.CustomerUserDetailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
@@ -46,6 +48,9 @@ public class AuthController {
     @Autowired
     private CartRepository cartRepository;
 
+    @Autowired
+    private KafkaTemplate<String, Object> kafkaTemplate;
+
     @PostMapping("/signup")
     public ResponseEntity<AuthResponse> createUserHandler(@RequestBody User user) throws Exception {
 
@@ -68,6 +73,17 @@ public class AuthController {
             cart.setCustomer(savedUser);
             cartRepository.save(cart);
         }
+
+        // Publish UserCreatedEvent to Kafka
+        UserCreatedEvent event = UserCreatedEvent.builder()
+                .userId(savedUser.getUserId())
+                .email(savedUser.getEmail())
+                .fullName(savedUser.getFullName())
+                .phoneNumber(savedUser.getPhoneNumber())
+                .role(savedUser.getRole().toString())
+                .build();
+        
+        kafkaTemplate.send("user-created-topic", event);
 
         UserDetails userDetails = customerUserDetailService.loadUserByUsername(user.getEmail());
         Authentication authentication = new UsernamePasswordAuthenticationToken(userDetails, user.getPassword(),
@@ -186,6 +202,17 @@ public class AuthController {
                 cart.setCustomer(user);
                 cartRepository.save(cart);
             }
+            
+            // Publish UserCreatedEvent to Kafka
+            UserCreatedEvent event = UserCreatedEvent.builder()
+                    .userId(user.getUserId())
+                    .email(user.getEmail()) // Might be null for OTP login if not provided
+                    .fullName(user.getFullName())
+                    .phoneNumber(user.getPhoneNumber())
+                    .role(user.getRole().toString())
+                    .build();
+            
+            kafkaTemplate.send("user-created-topic", event);
         }
 
         List<GrantedAuthority> authorities = new ArrayList<>();

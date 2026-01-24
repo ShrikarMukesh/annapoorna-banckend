@@ -21,6 +21,7 @@ import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/api/v1/orders")
+@CrossOrigin("*")
 public class OrderController {
 
 	private final OrderServiceImpl orderServiceImpl;
