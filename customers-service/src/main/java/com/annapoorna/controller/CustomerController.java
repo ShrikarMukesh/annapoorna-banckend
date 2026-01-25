@@ -58,6 +58,16 @@ public class CustomerController {
 		return ResponseEntity.ok(customerService.findByEmail(email));
 	}
 
+	@GetMapping("/id/{customerId}")
+	public ResponseEntity<Customer> findById(@PathVariable String customerId) {
+		Customer customer = customerService.findById(customerId);
+		if (customer != null) {
+			return ResponseEntity.ok(customer);
+		} else {
+			return ResponseEntity.notFound().build();
+		}
+	}
+
 	@PutMapping("/update")
 	public ResponseEntity<Customer> update(@RequestBody Customer customer) {
 		return ResponseEntity.ok(customerService.update(customer));
@@ -70,6 +80,7 @@ public class CustomerController {
 				.authenticate(new UsernamePasswordAuthenticationToken(authRequest.getUsername(), authRequest.getPassword()));
 
 		if (authentication.isAuthenticated()) {
+			// Use the username from the request (which is the email in this case) to generate the token
 			return jwtService.generateToken(authRequest.getUsername());
 		} else {
 			throw new UsernameNotFoundException("invalid user request !");
@@ -84,9 +95,19 @@ public class CustomerController {
 						authRequest.getUsername(),
 						authRequest.getPassword())
 				);
+		// Use the input username (email) directly if user lookup fails or returns null username
 		var user = customerService.findByEmail(authRequest.getUsername());
-		var token = jwtService.generateToken(user.getUserName());
-		return AuthenticationResponse.builder().token(token).build();
+		String tokenSubject = (user != null && user.getUserName() != null) ? user.getUserName() : authRequest.getUsername();
+		
+		var token = jwtService.generateToken(tokenSubject);
+		
+		// Return customerId in response
+		String customerId = (user != null) ? user.getCustomerId() : null;
+		
+		return AuthenticationResponse.builder()
+				.token(token)
+				.customerId(customerId)
+				.build();
 
 		//		if (authentication.isAuthenticated()) {
 		//			return jwtService.generateToken(authRequest.getUsername());

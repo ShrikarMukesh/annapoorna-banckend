@@ -26,6 +26,7 @@ public class JwtProvider {
                 .setIssuedAt(new Date())
                 .setExpiration(new Date(new Date().getTime() + 864000000))
                 .claim("email", authentication.getName())
+                .setSubject(authentication.getName()) // Essential for other services relying on Subject
                 .claim("authorities", roles)
                 .claim("scope", "read write") // Adding default scopes for now, can be dynamic based on role
                 .signWith(key)

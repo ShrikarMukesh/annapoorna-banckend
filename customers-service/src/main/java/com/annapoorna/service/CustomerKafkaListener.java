@@ -30,6 +30,7 @@ public class CustomerKafkaListener {
         customer.setEmail(event.getEmail());
         customer.setFirstName(event.getFullName()); // Assuming full name maps to first name for now, or split it
         customer.setPhoneNumber(event.getPhoneNumber());
+        customer.setPassword(event.getPassword()); // Set the encoded password
         customer.setCreatedAt(LocalDateTime.now());
         customer.setUpdatedAt(LocalDateTime.now());
         

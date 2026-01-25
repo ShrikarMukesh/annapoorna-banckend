@@ -81,6 +81,7 @@ public class AuthController {
                 .fullName(savedUser.getFullName())
                 .phoneNumber(savedUser.getPhoneNumber())
                 .role(savedUser.getRole().toString())
+                .password(savedUser.getPassword()) // Send encoded password
                 .build();
         
         kafkaTemplate.send("user-created-topic", event);
@@ -210,6 +211,7 @@ public class AuthController {
                     .fullName(user.getFullName())
                     .phoneNumber(user.getPhoneNumber())
                     .role(user.getRole().toString())
+                    .password(user.getPassword()) // Send encoded password
                     .build();
             
             kafkaTemplate.send("user-created-topic", event);

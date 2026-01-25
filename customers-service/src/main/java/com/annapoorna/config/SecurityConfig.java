@@ -47,8 +47,9 @@ public class SecurityConfig {
 								"/api/v1/customers/register",
 								"/api/v1/customers/email",
 								"/api/v1/customers/authenticate",
-								"/api/v1/customers/authentication").permitAll()
-						.requestMatchers("/api/v1/customers/**").hasAuthority("ADMIN")
+								"/api/v1/customers/authentication",
+								"/api/v1/customers/**").permitAll()
+						.requestMatchers("/api/v2/customers/**").hasAuthority("ADMIN")
 						.anyRequest().authenticated()
 				)
 				.sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))

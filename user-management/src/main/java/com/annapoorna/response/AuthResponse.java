@@ -13,4 +13,6 @@ public class AuthResponse {
     private USER_ROLE role;
     
     private String userId;
+
+    private String customerId;
 }
