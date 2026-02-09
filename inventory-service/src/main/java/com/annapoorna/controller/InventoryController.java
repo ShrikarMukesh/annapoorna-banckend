@@ -47,7 +47,8 @@ public class InventoryController {
 
     // Endpoint to update an existing inventory item
     @PutMapping("/{id}")
-    public ResponseEntity<InventoryItem> updateInventoryItem(@PathVariable String id, @RequestBody InventoryItem updatedInventoryItem) {
+    public ResponseEntity<InventoryItem> updateInventoryItem(@PathVariable String id,
+            @RequestBody InventoryItem updatedInventoryItem) {
         InventoryItem updatedItem = inventoryService.updateInventoryItem(id, updatedInventoryItem);
         if (updatedItem != null) {
             return new ResponseEntity<>(updatedItem, HttpStatus.OK);
@@ -59,11 +60,7 @@ public class InventoryController {
     // Endpoint to delete an existing inventory item
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteInventoryItem(@PathVariable String id) {
-        boolean deleted = inventoryService.deleteItemById(id);
-        if (deleted) {
-            return new ResponseEntity<>(HttpStatus.NO_CONTENT);
-        } else {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        }
+        inventoryService.deleteItemById(id);
+        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 }
